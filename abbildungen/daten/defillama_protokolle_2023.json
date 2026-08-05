@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Aave",
+  "slug": "aave",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 4.7
+ },
+ {
+  "name": "Compound",
+  "slug": "compound-finance",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 1.89
+ },
+ {
+  "name": "Uniswap",
+  "slug": "uniswap",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 3.85
+ },
+ {
+  "name": "PancakeSwap",
+  "slug": "pancakeswap",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 2.49
+ },
+ {
+  "name": "Curve",
+  "slug": "curve-dex",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 4.85
+ },
+ {
+  "name": "Nexus Mutual",
+  "slug": "nexus-mutual",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 0.205
+ },
+ {
+  "name": "Opyn",
+  "slug": "opyn",
+  "datum": "2023-03-09",
+  "tvl_mrd_usd": 0.0498
+ }
+]

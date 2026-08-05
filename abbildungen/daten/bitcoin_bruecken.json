@@ -1,0 +1,32 @@
+{
+ "stichtag": "2026-08-05",
+ "btc_preis_usd": 64430.87276167584,
+ "btc_umlauf": 20066146.0,
+ "wbtc_usd": 7300258997,
+ "tbtc_usd": 313298087,
+ "lightning_usd": 270319778,
+ "babylon_usd": 2604986141,
+ "lbtc_btc": 4723.51505929,
+ "sbtc_btc": 2517.51958739,
+ "lightning_btc": 4189.6052864,
+ "lightning_kanaele": 37444,
+ "chain_tvl_usd": {
+  "Rootstock": 69283935.67416774,
+  "Stacks": 75794480.59840122,
+  "Citrea": 7000173.995059768,
+  "BOB": 9218358.846130397,
+  "Bitcoin": 3501350442.8505855,
+  "Ethereum": 40965091957.82921
+ },
+ "quellen": {
+  "wbtc/tbtc/lightning/babylon": "api.llama.fi/protocol/<slug>",
+  "chains": "api.llama.fi/v2/chains",
+  "lbtc": "blockstream.info/liquid/api/asset/6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d",
+  "sbtc": "api.hiro.so/metadata/v1/ft/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token",
+  "lightning_btc": "mempool.space/api/v1/lightning/statistics/latest",
+  "btc_preis": "coins.llama.fi/prices/current/coingecko:bitcoin",
+  "btc_umlauf": "blockchain.info/q/totalbc",
+  "chain_tvl_summe": "api.llama.fi/v2/chains (Summe aller Chains)"
+ },
+ "chain_tvl_summe_usd": 74767034641.60213
+}

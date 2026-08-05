@@ -1,0 +1,188 @@
+% main.tex — Diplomarbeit „Decentralized Finance und die Zukunft des Finanzwesens“
+% Überarbeitete und aktualisierte Fassung, 2026 — Martin Janda
+%
+% Kapitelinhalte werden per Pandoc aus kapitel/*.md nach build/*.tex konvertiert
+% (siehe Makefile, Ziel `tex`) und hier per \input eingebunden.
+% Die Kapitel-Markdown-Dateien in kapitel/ sind die alleinige Quelle für den
+% Fließtext und werden NICHT in diesem Repository-Teil verändert.
+
+\documentclass[12pt,a4paper,oneside,BCOR=0mm]{scrreprt}
+
+\input{praeambel}
+
+\title{Decentralized Finance und die Zukunft des Finanzwesens}
+\author{Martin Janda}
+\date{2026}
+
+\begin{document}
+
+% --- Titelseite (Whitepaper-Stil; bewusst ohne Matrikelnummer/Betreuer) ---
+\begin{titlepage}
+  \centering
+  \vspace*{2.5cm}
+
+  {\LARGE\bfseries Decentralized Finance und die Zukunft des Finanzwesens\par}
+
+  \vspace{0.6cm}
+  {\large Eine Untersuchung möglicher Auswirkungen auf den traditionellen Finanzsektor\par}
+
+  \vspace{1.6cm}
+  {\large\scshape Whitepaper\par}
+
+  % Titelgrafik: TVL-Verlauf 2017–2026 (Eigenanfertigung aus eingechecktem
+  % DeFiLlama-Snapshot, siehe abbildungen/titelgrafik.py)
+  \vspace{1.3cm}
+  \includegraphics[width=0.88\textwidth]{titelgrafik.pdf}
+
+  \vspace{1.3cm}
+  {\large Martin Janda\par}
+  \vspace{0.2cm}
+  {\normalsize martin@janda.io\par}
+
+  \vfill
+  % Details (Einreichung/Annahme, Aktualisierungsumfang) stehen bewusst nur
+  % auf der Vermerk-Seite „Über dieses Dokument“ — keine Doppelung.
+  {\small Überarbeitete Fassung der Diplomarbeit, AKAD University\ · \textbf{Stand: August 2026}\par}
+  \vspace*{1.2cm}
+\end{titlepage}
+
+% --- Vermerk-Seite: Herkunft, Disclaimer, Lizenz ---
+\thispagestyle{empty}
+\vspace*{\fill}
+\noindent
+\begin{minipage}{\textwidth}\small
+  \textbf{Über dieses Dokument.} Dieses Whitepaper basiert auf der vom Autor
+  an der AKAD University eingereichten und angenommenen Diplomarbeit
+  \enquote{Decentralized Finance und die Zukunft des Finanzwesens} (Mai 2023).
+  Für die Veröffentlichung wurden Marktdaten und regulatorischer Stand auf
+  August 2026 aktualisiert und einzelne Kapitel überarbeitet. Prüfungsbezogene
+  Bestandteile der eingereichten Fassung sind nicht Teil dieser
+  Veröffentlichung.
+
+  \medskip
+  \textbf{Danksagung.} Mein besonderer Dank gilt Prof.~Dr.~Philipp Sandner~(†),
+  Gründer und Leiter des Frankfurt School Blockchain Center. Als externer
+  Experte im Netzwerk des FSBC habe ich in verschiedenen Projekten
+  im Kryptoumfeld mit ihm zusammengearbeitet; der fachliche Austausch mit ihm hat mich
+  zum Thema dieser Arbeit inspiriert. Sein früher Tod im Januar 2024 ist ein
+  großer Verlust für die deutsche Blockchain-Community.
+
+  \medskip
+  \textbf{Hinweis.} Dieses Dokument dient ausschließlich Informationszwecken
+  und stellt keine Anlage-, Rechts- oder Steuerberatung dar.
+
+  \medskip
+  \textbf{Lizenz.} Dieses Werk ist lizenziert unter einer Creative-Commons-Lizenz
+  „Namensnennung 4.0 International“ (CC~BY~4.0),
+  \url{https://creativecommons.org/licenses/by/4.0/deed.de}.
+
+  \medskip
+  \textbf{Kontakt.} Martin Janda, martin@janda.io
+\end{minipage}
+\vspace*{\fill}
+\clearpage
+
+% --- Vorwort zur überarbeiteten Fassung ---
+\chapter*{Vorwort zur überarbeiteten Fassung}
+\addcontentsline{toc}{chapter}{Vorwort zur überarbeiteten Fassung}
+
+Diese Arbeit entstand 2023 als Diplomarbeit an der AKAD University. Kaum ein
+Gegenstand verändert sich so schnell wie der hier untersuchte: Die Regulierung,
+die damals erst Konturen annahm, ist mit MiCA und dem GENIUS Act Realität
+geworden; die untersuchten Protokolle haben Generationswechsel, Rebrandings
+und Konsolidierung durchlaufen; und mit Spot-ETFs und tokenisierten Fonds hat
+die institutionelle Adoption eine neue Stufe erreicht.
+
+Für diese Veröffentlichung habe ich die Arbeit deshalb umfassend optimiert und
+auf den Stand von August 2026 gebracht: Alle Marktdaten beruhen auf einem
+einheitlichen, reproduzierbaren Datenstand mit ausgewiesenen Stichtagen,
+Methodik und Analyse wurden geschärft — unter anderem um ein durchgängiges
+Analyseraster und eine systematische Risikobetrachtung —, und die
+Entwicklungen der Jahre 2023 bis 2026 sind in neuen, gekennzeichneten
+Abschnitten ergänzt, einschließlich eines Prüfstands der damaligen
+Einschätzungen am tatsächlichen Verlauf.
+
+Die Arbeit bleibt, was sie war: der Versuch, eine schnelllebige Technologie
+mit wissenschaftlicher Sorgfalt einzuordnen. Wenn diese Fassung dazu beiträgt,
+die Debatte um dezentrale Finanzsysteme faktenbasierter zu führen, hat sie
+ihren Zweck erfüllt.
+
+\medskip
+\noindent Im August 2026\\
+Martin Janda
+\clearpage
+
+% --- Verzeichnisse ---
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Abkürzungsverzeichnis (manuell, da die Kapitel-Markdown-Quellen keine \ac-Makros
+% verwenden). Enthält alle im Text verwendeten Kürzel, inkl. der laut Erstgutachten
+% im Original fehlenden Einträge ETH, SPV, EH/s und wBTC.
+\chapter*{Abkürzungsverzeichnis}
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+% longtable statt tabular: 42 Einträge passen mit 1,5-Zeilenabstand nicht mehr
+% auf eine Seite — ein unteilbarer tabular erzeugte eine Leerseite davor.
+\begin{longtable}{@{}p{2.6cm}p{11.8cm}@{}}
+AMM   & Automated Market Maker \\
+API   & Application Programming Interface (Programmierschnittstelle) \\
+APY   & Annual Percentage Yield (jährliche prozentuale Rendite) \\
+BaFin & Bundesanstalt für Finanzdienstleistungsaufsicht \\
+BGP   & Byzantinisches Generalsproblem \\
+BIS   & Bank for International Settlements (Bank für Internationalen Zahlungsausgleich) \\
+BMF   & Bundesministerium der Finanzen \\
+CASP  & Crypto-Asset Service Provider (Krypto-Dienstleister nach MiCA) \\
+CBOT  & Chicago Board of Trade \\
+CDM   & Collateralized Debt Market \\
+CDP   & Collateralized Debt Position \\
+CeFi  & Centralized Finance \\
+CEX   & Centralized Exchange (zentralisierte Kryptobörse) \\
+CFMM  & Constant Function Market Maker \\
+CFTC  & Commodity Futures Trading Commission (US-Derivateaufsicht) \\
+dApp  & Decentralized Application (dezentrale Anwendung) \\
+DeFi  & Decentralized Finance \\
+DEX   & Decentralized Exchange (dezentrale Kryptobörse) \\
+EBA   & European Banking Authority (Europäische Bankenaufsichtsbehörde) \\
+EH/s  & Exahashes pro Sekunde ($10^{18}$ Hashes/s) \\
+ERC   & Ethereum Request for Comments (Token-Standard-Verfahren) \\
+ESMA  & European Securities and Markets Authority (Europäische Wertpapieraufsicht) \\
+ETF   & Exchange Traded Fund (börsengehandelter Fonds) \\
+ETH   & Ether (native Kryptowährung der Ethereum-Blockchain) \\
+FF    & Forschungsfrage \\
+FSB   & Financial Stability Board (Finanzstabilitätsrat) \\
+KMAG  & Kryptomärkteaufsichtsgesetz \\
+KWG   & Kreditwesengesetz \\
+KYC   & Know Your Customer (Identitätsprüfung) \\
+LP    & Liquidity Provider (Liquiditätsanbieter) bzw. Liquiditätspool \\
+MiCA  & Markets in Crypto-Assets (Verordnung (EU) 2023/1114) \\
+NPP   & Neue-Produkte-Prozess \\
+P2P   & Peer-to-Peer \\
+PoS   & Proof of Stake \\
+PoW   & Proof of Work \\
+PSD2  & Payment Services Directive 2 (Zweite EU-Zahlungsdiensterichtlinie) \\
+RWA   & Real World Assets (tokenisierte reale Vermögenswerte) \\
+SEC   & U.S. Securities and Exchange Commission (US-Wertpapieraufsicht) \\
+SPV   & Simplified Payment Verification \\
+TradFi & Traditional Finance (traditionelles Finanzwesen) \\
+TVL   & Total Value Locked \\
+wBTC  & Wrapped Bitcoin \\
+\end{longtable}
+\clearpage
+
+% --- Kapitel (Pandoc-generierte Fragmente aus build/, siehe Makefile) ---
+\input{build/01}
+\input{build/02}
+\input{build/03}
+\input{build/04}
+\input{build/05}
+\input{build/06}
+
+% --- Anhang ---
+\appendix
+\input{build/90}
+
+% --- Literaturverzeichnis ---
+\printbibliography
+
+\end{document}

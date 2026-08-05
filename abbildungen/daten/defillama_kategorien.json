@@ -1,0 +1,171 @@
+{
+ "quelle": "https://api.llama.fi/protocols",
+ "stand": "2026-08-03",
+ "hinweis": "TVL-Summe je category-Feld über alle Protokolle; CEX/Bridge/Canonical Bridge sind keine DeFi-Kategorien im Sinne der Arbeit.",
+ "kategorien": [
+  {
+   "kategorie": "CEX",
+   "tvl_usd": 243598875814
+  },
+  {
+   "kategorie": "Bridge",
+   "tvl_usd": 44914517025
+  },
+  {
+   "kategorie": "Lending",
+   "tvl_usd": 40520040784
+  },
+  {
+   "kategorie": "Liquid Staking",
+   "tvl_usd": 35185648378
+  },
+  {
+   "kategorie": "RWA",
+   "tvl_usd": 26652381748
+  },
+  {
+   "kategorie": "Dexs",
+   "tvl_usd": 11165108321
+  },
+  {
+   "kategorie": "Staking Pool",
+   "tvl_usd": 10382271525
+  },
+  {
+   "kategorie": "Risk Curators",
+   "tvl_usd": 8704606362
+  },
+  {
+   "kategorie": "Canonical Bridge",
+   "tvl_usd": 8106273677
+  },
+  {
+   "kategorie": "Restaking",
+   "tvl_usd": 7955769842
+  },
+  {
+   "kategorie": "CDP",
+   "tvl_usd": 7926840181
+  },
+  {
+   "kategorie": "Onchain Capital Allocator",
+   "tvl_usd": 7704730632
+  },
+  {
+   "kategorie": "Basis Trading",
+   "tvl_usd": 6957501657
+  },
+  {
+   "kategorie": "Liquid Restaking",
+   "tvl_usd": 4454378215
+  },
+  {
+   "kategorie": "Yield",
+   "tvl_usd": 4393638195
+  },
+  {
+   "kategorie": "Chain",
+   "tvl_usd": 3099633447
+  },
+  {
+   "kategorie": "Derivatives",
+   "tvl_usd": 1911058827
+  },
+  {
+   "kategorie": "OTC Marketplace",
+   "tvl_usd": 1558927092
+  },
+  {
+   "kategorie": "Yield Aggregator",
+   "tvl_usd": 1195413110
+  },
+  {
+   "kategorie": "RWA Lending",
+   "tvl_usd": 910394994
+  },
+  {
+   "kategorie": "Restaked BTC",
+   "tvl_usd": 873660101
+  },
+  {
+   "kategorie": "Farm",
+   "tvl_usd": 785316960
+  },
+  {
+   "kategorie": "Privacy",
+   "tvl_usd": 707366742
+  },
+  {
+   "kategorie": "Anchor BTC",
+   "tvl_usd": 524275021
+  },
+  {
+   "kategorie": "Prediction Market",
+   "tvl_usd": 388839196
+  },
+  {
+   "kategorie": "Leveraged Farming",
+   "tvl_usd": 356826489
+  },
+  {
+   "kategorie": "Collateral Management",
+   "tvl_usd": 340180181
+  },
+  {
+   "kategorie": "Decentralized BTC",
+   "tvl_usd": 335329974
+  },
+  {
+   "kategorie": "Stablecoin Issuer",
+   "tvl_usd": 298258722
+  },
+  {
+   "kategorie": "Payments",
+   "tvl_usd": 287283818
+  },
+  {
+   "kategorie": "Cross Chain Bridge",
+   "tvl_usd": 274701345
+  },
+  {
+   "kategorie": "Liquidity Manager",
+   "tvl_usd": 274264423
+  },
+  {
+   "kategorie": "Stablecoin Wrapper",
+   "tvl_usd": 254722250
+  },
+  {
+   "kategorie": "Indexes",
+   "tvl_usd": 252471930
+  },
+  {
+   "kategorie": "CeDeFi",
+   "tvl_usd": 240380818
+  },
+  {
+   "kategorie": "Token Locker",
+   "tvl_usd": 226890488
+  },
+  {
+   "kategorie": "CDP Manager",
+   "tvl_usd": 215808241
+  },
+  {
+   "kategorie": "Launchpad",
+   "tvl_usd": 211865916
+  },
+  {
+   "kategorie": "Dual-Token Stablecoin",
+   "tvl_usd": 161529041
+  },
+  {
+   "kategorie": "Crypto Card Issuer",
+   "tvl_usd": 128704563
+  },
+  {
+   "kategorie": "Insurance",
+   "tvl_usd": 103061236
+  }
+ ]
+}

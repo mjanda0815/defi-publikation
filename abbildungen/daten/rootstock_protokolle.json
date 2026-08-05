@@ -1,0 +1,224 @@
+[
+ {
+  "name": "RIF ON CHAIN",
+  "slug": "rif-on-chain",
+  "category": "Dual-Token Stablecoin",
+  "tvl_rsk": 22167024.877888583
+ },
+ {
+  "name": "MoneyOnChain",
+  "slug": "moneyonchain",
+  "category": "Dual-Token Stablecoin",
+  "tvl_rsk": 18486623.029982418
+ },
+ {
+  "name": "Sovryn Zero",
+  "slug": "sovryn-zero",
+  "category": "CDP",
+  "tvl_rsk": 16708564.326048689
+ },
+ {
+  "name": "Sovryn Dex",
+  "slug": "sovryn-dex",
+  "category": "Dexs",
+  "tvl_rsk": 6912065.675684049
+ },
+ {
+  "name": "Uniswap V3",
+  "slug": "uniswap-v3",
+  "category": "Dexs",
+  "tvl_rsk": 2484673.2794580786
+ },
+ {
+  "name": "LayerBank",
+  "slug": "layerbank",
+  "category": "Lending",
+  "tvl_rsk": 1616028.5075141904
+ },
+ {
+  "name": "BabelFish",
+  "slug": "babelfish",
+  "category": "Bridge",
+  "tvl_rsk": 966565.9184448827
+ },
+ {
+  "name": "SushiSwap V3",
+  "slug": "sushiswap-v3",
+  "category": "Dexs",
+  "tvl_rsk": 571059.0228260225
+ },
+ {
+  "name": "LayerZero V2",
+  "slug": "layerzero-v2",
+  "category": "Bridge",
+  "tvl_rsk": 469700.7192289633
+ },
+ {
+  "name": "Gate",
+  "slug": "gate",
+  "category": "CEX",
+  "tvl_rsk": 205200.78635466628
+ },
+ {
+  "name": "Symbiosis",
+  "slug": "symbiosis",
+  "category": "Cross Chain Bridge",
+  "tvl_rsk": 141699.70647513532
+ },
+ {
+  "name": "Tropykus RSK",
+  "slug": "tropykus-rsk",
+  "category": "Lending",
+  "tvl_rsk": 108757.368449147
+ },
+ {
+  "name": "RskSwap",
+  "slug": "rskswap",
+  "category": "Dexs",
+  "tvl_rsk": 51968.61240316641
+ },
+ {
+  "name": "Midas RWA",
+  "slug": "midas-rwa",
+  "category": "RWA",
+  "tvl_rsk": 28708.36
+ },
+ {
+  "name": "Beefy",
+  "slug": "beefy",
+  "category": "Yield Aggregator",
+  "tvl_rsk": 26739.64867841771
+ },
+ {
+  "name": "WoodSwap",
+  "slug": "woodswap",
+  "category": "Dexs",
+  "tvl_rsk": 15219.342170981985
+ },
+ {
+  "name": "BitChill",
+  "slug": "bitchill",
+  "category": "DCA Tools",
+  "tvl_rsk": 15049.089996662668
+ },
+ {
+  "name": "Blindex",
+  "slug": "blindex",
+  "category": "Algo-Stables",
+  "tvl_rsk": 9155.209418319168
+ },
+ {
+  "name": "Money Protocol",
+  "slug": "money-protocol",
+  "category": "CDP",
+  "tvl_rsk": 5132.192495765608
+ },
+ {
+  "name": "Intrinsic",
+  "slug": "intrinsic",
+  "category": "Dexs",
+  "tvl_rsk": 1897.0678754636049
+ },
+ {
+  "name": "Pell Network",
+  "slug": "pell-network",
+  "category": "Restaking",
+  "tvl_rsk": 1733.600519551576
+ },
+ {
+  "name": "Elk",
+  "slug": "elk",
+  "category": "Dexs",
+  "tvl_rsk": 1539.3415735495685
+ },
+ {
+  "name": "Bedrock uniBTC",
+  "slug": "bedrock-unibtc",
+  "category": "Anchor BTC",
+  "tvl_rsk": 704.3595629650438
+ },
+ {
+  "name": "RSK Bridge",
+  "slug": "rsk-bridge",
+  "category": "Canonical Bridge",
+  "tvl_rsk": 379.6670618743466
+ },
+ {
+  "name": "SushiSwap",
+  "slug": "sushiswap",
+  "category": "Dexs",
+  "tvl_rsk": 337.5392907879754
+ },
+ {
+  "name": "Balmy",
+  "slug": "balmy",
+  "category": "DCA Tools",
+  "tvl_rsk": 269.98239852946307
+ },
+ {
+  "name": "Steer Protocol",
+  "slug": "steer-protocol",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 258.1462826641015
+ },
+ {
+  "name": "Boltz",
+  "slug": "boltz",
+  "category": "Bridge",
+  "tvl_rsk": 219.99982694375288
+ },
+ {
+  "name": "PowPeg Fast Mode",
+  "slug": "powpeg-fast-mode",
+  "category": "Bridge",
+  "tvl_rsk": 187.6687713676025
+ },
+ {
+  "name": "Segment Finance",
+  "slug": "segment-finance",
+  "category": "Lending",
+  "tvl_rsk": 186.99169530015342
+ },
+ {
+  "name": "ICHI",
+  "slug": "ichi",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 74.76900724282191
+ },
+ {
+  "name": "Gamma",
+  "slug": "gamma",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 7.556545338494379
+ },
+ {
+  "name": "Mellow Core",
+  "slug": "mellow-core",
+  "category": "Onchain Capital Allocator",
+  "tvl_rsk": 0
+ },
+ {
+  "name": "Multichain",
+  "slug": "multichain",
+  "category": "Bridge",
+  "tvl_rsk": 0
+ },
+ {
+  "name": "De1",
+  "slug": "de1",
+  "category": "DEX Aggregator",
+  "tvl_rsk": 0
+ },
+ {
+  "name": "Sovryn Lend",
+  "slug": "sovryn-lend",
+  "category": "Lending",
+  "tvl_rsk": 0
+ },
+ {
+  "name": "Rootstock Collective",
+  "slug": "rootstock-collective",
+  "category": "Governance Incentives",
+  "tvl_rsk": 0
+ }
+]

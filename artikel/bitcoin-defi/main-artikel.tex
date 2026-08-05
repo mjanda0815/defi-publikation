@@ -1,0 +1,85 @@
+% main-artikel.tex — „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?"
+% Eigenständiger Artikel zum Whitepaper; Preamble nach Vorbild von ../../praeambel.tex.
+% Der Fließtext wird per Pandoc aus artikel.md nach build/artikel-inhalt.tex
+% konvertiert (siehe Makefile in diesem Ordner) und hier eingebunden.
+% Build:  make pdf   (in artikel/bitcoin-defi/)
+
+\documentclass[12pt,a4paper,oneside]{scrartcl}
+
+% --- Encoding, Sprache, Schrift (wie Whitepaper) ---
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage[style=german]{csquotes}
+\usepackage{microtype}
+
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliographie-Notes enthalten unvermeidbar lange, nicht trennbare
+% Zeichenketten (Dateipfade, API-Endpunkte). Emergency-Stretch erlaubt TeX
+% als letztes Mittel etwas mehr Wortabstand statt Overfull-Boxen zu
+% erzeugen. Rein mechanischer Satz-Fix, kein Eingriff in Inhalt.
+\emergencystretch=3em
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+
+\usepackage{graphicx}
+\graphicspath{{../../abbildungen/out/}}
+\setkeys{Gin}{keepaspectratio}
+
+% pdfTeX kennt das Unicode-Zeichen "≈" (U+2248) nicht automatisch --
+% Mapping auf \approx im Textsatz (mechanischer Encoding-Fix, kein Inhalt).
+\usepackage{newunicodechar}
+\newunicodechar{≈}{\ensuremath{\approx}}
+
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=nyt,
+  urldate=long,
+  dateabbrev=false
+]{biblatex}
+\addbibresource{literatur.bib}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+
+% Pandoc-Kompatibilität (wie Whitepaper)
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\title{DeFi mit Bitcoin --- wie weit trägt die Basis ohne Altcoins?}
+\subtitle{Ein Begleitartikel zum Whitepaper\\
+  \enquote{Decentralized Finance und die Zukunft des Finanzwesens}}
+\author{Martin Janda\\\normalsize martin@janda.io}
+\date{Version 1.0 · August 2026 \\ \normalsize Marktdaten, soweit nicht anders angegeben: Stand 05.08.2026}
+
+\begin{document}
+% babel-ngerman aktiviert "\" als aktives Shorthand-Zeichen (z. B. "a -> ä,
+% "s -> ß). Der von Pandoc erzeugte Text enthaelt an einzelnen Stellen ein
+% gerades ASCII-Anfuehrungszeichen (") als schliessendes Zitatzeichen; ohne
+% Abschalten verschluckt das Shorthand den nachfolgenden Buchstaben (z. B.
+% wurde "unter" zu "ünter"). Mechanischer Encoding-Fix, kein Inhalt.
+\shorthandoff{"}
+
+\maketitle
+
+\begin{center}\small
+  Lizenz: CC~BY~4.0 · \url{https://creativecommons.org/licenses/by/4.0/deed.de} \\
+  Dauerhafte Veröffentlichungsadresse: \url{https://www.janda.io}, Bereich Veröffentlichungen \\
+  Dieses Dokument dient ausschließlich Informationszwecken und stellt keine
+  Anlage-, Rechts- oder Steuerberatung dar.
+\end{center}
+\medskip
+
+\input{build/artikel-inhalt}
+
+\printbibliography
+
+\end{document}

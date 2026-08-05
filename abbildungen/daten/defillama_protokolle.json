@@ -1,0 +1,1254 @@
+[
+ {
+  "name": "Binance CEX",
+  "slug": "binance-cex",
+  "category": "CEX",
+  "tvl": 136900780621.43604,
+  "chains": [
+   "Ethereum",
+   "Bitcoin",
+   "Binance",
+   "Solana",
+   "Ripple",
+   "Tron",
+   "Doge",
+   "Base",
+   "Arbitrum",
+   "Sui",
+   "Plasma",
+   "Aptos",
+   "TON",
+   "Litecoin",
+   "Near",
+   "Avalanche",
+   "Polygon",
+   "Hedera",
+   "Optimism",
+   "Stellar",
+   "Sonic",
+   "Celo",
+   "Op_Bnb",
+   "Algorand",
+   "Ronin",
+   "Chiliz",
+   "zkSync Era",
+   "Manta",
+   "Scroll",
+   "Starknet",
+   "Polkadot",
+   "Fantom"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "OKX",
+  "slug": "okx",
+  "category": "CEX",
+  "tvl": 21112708649.71517,
+  "chains": [
+   "Ethereum",
+   "Bitcoin",
+   "Solana",
+   "Tron",
+   "Doge",
+   "Ripple",
+   "Litecoin",
+   "TON",
+   "Linea",
+   "Arbitrum",
+   "Aptos",
+   "Optimism",
+   "Base",
+   "Avalanche",
+   "zkSync Era",
+   "Scroll",
+   "Starknet",
+   "Polygon",
+   "Polkadot"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Lido",
+  "slug": "lido",
+  "category": "Liquid Staking",
+  "tvl": 17598115682.920387,
+  "chains": [
+   "Ethereum",
+   "Solana",
+   "Moonbeam",
+   "Moonriver",
+   "Terra"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Bitfinex",
+  "slug": "bitfinex",
+  "category": "CEX",
+  "tvl": 16737926353.705597,
+  "chains": [
+   "Bitcoin",
+   "Ethereum",
+   "Tron",
+   "Solana",
+   "Avalanche",
+   "Near",
+   "Polygon",
+   "Litecoin",
+   "Tezos",
+   "Algorand",
+   "EOS",
+   "Aptos",
+   "Cosmos",
+   "Elrond",
+   "Cardano",
+   "EthereumClassic",
+   "Fantom",
+   "Doge",
+   "Zilliqa",
+   "Polkadot"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Aave V3",
+  "slug": "aave-v3",
+  "category": "Lending",
+  "tvl": 13864672955.625792,
+  "chains": [
+   "Ethereum",
+   "Plasma",
+   "Arbitrum",
+   "Base",
+   "Monad",
+   "Avalanche",
+   "Binance",
+   "Polygon",
+   "X Layer",
+   "xDai",
+   "Optimism",
+   "MegaETH",
+   "Mantle",
+   "Linea",
+   "Sonic",
+   "Celo",
+   "Scroll",
+   "zkSync Era",
+   "Metis",
+   "Soneium",
+   "Fantom",
+   "Harmony"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Bybit",
+  "slug": "bybit",
+  "category": "CEX",
+  "tvl": 12971494628.544031,
+  "chains": [
+   "Ethereum",
+   "Bitcoin",
+   "Tron",
+   "Solana",
+   "Binance",
+   "Mantle",
+   "Ripple",
+   "Avalanche",
+   "Arbitrum",
+   "Doge",
+   "Base",
+   "Aptos",
+   "Hyperliquid L1",
+   "Optimism",
+   "Sui",
+   "Polygon",
+   "Litecoin",
+   "TON",
+   "Linea",
+   "Kava",
+   "Klaytn",
+   "zkSync Era",
+   "Sonic",
+   "Celo",
+   "Cardano",
+   "Cosmos",
+   "Plasma",
+   "dYdX",
+   "Arbitrum Nova",
+   "Manta",
+   "EOS",
+   "Scroll",
+   "Starknet",
+   "Taiko",
+   "Fantom",
+   "Polkadot"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Robinhood",
+  "slug": "robinhood",
+  "category": "CEX",
+  "tvl": 11470093561.457222,
+  "chains": [
+   "Bitcoin",
+   "Ethereum",
+   "Polygon",
+   "Avalanche"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "SSV Network",
+  "slug": "ssv-network",
+  "category": "Staking Pool",
+  "tvl": 9243977643.806202,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Morpho Blue",
+  "slug": "morpho-blue",
+  "category": "Lending",
+  "tvl": 7567584349.384905,
+  "chains": [
+   "Ethereum",
+   "Base",
+   "Robinhood Chain",
+   "Hyperliquid L1",
+   "Monad",
+   "Katana",
+   "Flare",
+   "Stable",
+   "World Chain",
+   "Tempo",
+   "Arbitrum",
+   "Sei",
+   "Plume Mainnet",
+   "Pharos",
+   "Citrea",
+   "Etherlink",
+   "Polygon",
+   "Optimism",
+   "Unichain",
+   "MegaETH",
+   "Celo",
+   "TAC",
+   "XDC",
+   "Abstract",
+   "Klaytn",
+   "Soneium",
+   "Lisk",
+   "Scroll",
+   "Hemi",
+   "Fraxtal",
+   "Binance",
+   "Sonic",
+   "0G",
+   "Ink",
+   "Corn",
+   "Botanix",
+   "Linea",
+   "Zircuit",
+   "Mode",
+   "Bitlayer",
+   "xDai"
+  ],
+  "parentProtocol": "parent#morpho"
+ },
+ {
+  "name": "WBTC",
+  "slug": "wbtc",
+  "category": "Bridge",
+  "tvl": 7212282778.626852,
+  "chains": [
+   "Bitcoin"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Binance staked ETH",
+  "slug": "binance-staked-eth",
+  "category": "Liquid Staking",
+  "tvl": 6951316510.673789,
+  "chains": [
+   "Ethereum",
+   "Binance"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "LayerZero V2",
+  "slug": "layerzero-v2",
+  "category": "Bridge",
+  "tvl": 6802991933.864945,
+  "chains": [
+   "Ethereum",
+   "Arbitrum",
+   "Base",
+   "Avalanche",
+   "Polygon",
+   "Stable",
+   "Plasma",
+   "Abstract",
+   "Binance",
+   "Hemi",
+   "Flare",
+   "Citrea",
+   "Fraxtal",
+   "Sei",
+   "Optimism",
+   "Celo",
+   "Hyperliquid L1",
+   "Kava",
+   "TAC",
+   "Mantle",
+   "Fantom",
+   "Berachain",
+   "zkSync Era",
+   "Metis",
+   "Katana",
+   "RSK",
+   "Peaq",
+   "Astar",
+   "Conflux",
+   "Sonic",
+   "Blast",
+   "Mode",
+   "Scroll",
+   "xDai",
+   "Linea",
+   "XDC",
+   "X Layer",
+   "Monad",
+   "Plume Mainnet",
+   "Swellchain",
+   "Lisk",
+   "MegaETH",
+   "Tempo",
+   "World Chain",
+   "Hedera",
+   "Goat",
+   "Morph",
+   "Unichain",
+   "BOB",
+   "Moonriver",
+   "Op_Bnb",
+   "Soneium",
+   "Nibiru",
+   "Harmony",
+   "Manta",
+   "Ink",
+   "Canto",
+   "Flow",
+   "Klaytn",
+   "Taiko"
+  ],
+  "parentProtocol": "parent#layerzero"
+ },
+ {
+  "name": "Coinbase Bridge",
+  "slug": "coinbase-bridge",
+  "category": "Bridge",
+  "tvl": 6061695858.424845,
+  "chains": [
+   "Bitcoin",
+   "Ripple",
+   "Doge",
+   "Cardano",
+   "Litecoin"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Hyperliquid Bridge",
+  "slug": "hyperliquid-bridge",
+  "category": "Bridge",
+  "tvl": 5926217837.549074,
+  "chains": [
+   "Hyperliquid L1",
+   "Arbitrum"
+  ],
+  "parentProtocol": "parent#hyperliquid"
+ },
+ {
+  "name": "Sky Lending",
+  "slug": "sky-lending",
+  "category": "CDP",
+  "tvl": 5658654533.616355,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#maker"
+ },
+ {
+  "name": "Gate",
+  "slug": "gate",
+  "category": "CEX",
+  "tvl": 5298911177.720778,
+  "chains": [
+   "Ethereum",
+   "Bitcoin",
+   "Solana",
+   "Binance",
+   "Doge",
+   "Tron",
+   "Plasma",
+   "Base",
+   "Ripple",
+   "Sui",
+   "Aptos",
+   "GateLayer",
+   "Litecoin",
+   "Arbitrum",
+   "Optimism",
+   "Bittensor",
+   "Avalanche",
+   "Celo",
+   "Cardano",
+   "EthereumClassic",
+   "Manta",
+   "Klaytn",
+   "Linea",
+   "Qubic",
+   "X Layer",
+   "WEMIX",
+   "XDC",
+   "Near",
+   "Algorand",
+   "Injective",
+   "HashKey Chain",
+   "Hyperliquid L1",
+   "Polygon",
+   "Aleo",
+   "Cronos",
+   "Cosmos",
+   "VeChain",
+   "zkSync Era",
+   "Terra",
+   "Celestia",
+   "Flare",
+   "Conflux",
+   "dYdX",
+   "Ergo",
+   "Mantle",
+   "Neo3",
+   "Metis",
+   "CORE",
+   "EOS",
+   "Alephium",
+   "Stacks",
+   "Constellation",
+   "Scroll",
+   "Supra",
+   "IoTeX",
+   "Starknet",
+   "Chiliz",
+   "RSK",
+   "LUKSO",
+   "0G",
+   "Elrond",
+   "Theta",
+   "Bitkub",
+   "Neon",
+   "Ronin",
+   "Agoric",
+   "Shibarium",
+   "Radix",
+   "Op_Bnb",
+   "ApeChain",
+   "Tezos",
+   "Osmosis",
+   "ZetaChain",
+   "Vana",
+   "Dymension",
+   "Somnia",
+   "XPLA",
+   "Etherlink",
+   "REI",
+   "Oasys",
+   "ThunderCore",
+   "Merlin",
+   "Fuse",
+   "Aura Network",
+   "Astar",
+   "BandChain",
+   "Mode",
+   "Boba",
+   "Babylon Genesis",
+   "Bitlayer",
+   "Blast",
+   "Matchain",
+   "Neutron",
+   "Zircuit",
+   "Meter",
+   "Moonriver",
+   "zkLink",
+   "Aurora",
+   "Taiko",
+   "Arbitrum Nova",
+   "EnergyWeb",
+   "Fantom",
+   "Moonbeam",
+   "BSquared",
+   "Bifrost",
+   "Bittorrent",
+   "AirDAO",
+   "BEVM",
+   "Cube",
+   "ENULS",
+   "EOS EVM",
+   "Evmos",
+   "Heco",
+   "Kadena",
+   "Kardia",
+   "Kroma",
+   "Nuls",
+   "Polygon zkEVM",
+   "Saga",
+   "Taraxa",
+   "Umee",
+   "Sei",
+   "Fuel",
+   "Bahamut",
+   "OKExChain",
+   "HAQQ",
+   "Peaq",
+   "TomoChain",
+   "Polkadot"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "EigenCloud",
+  "slug": "eigencloud",
+  "category": "Restaking",
+  "tvl": 4994975810.020403,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Bitget",
+  "slug": "bitget",
+  "category": "CEX",
+  "tvl": 4953907150.204713,
+  "chains": [
+   "Bitcoin",
+   "Ethereum",
+   "Solana",
+   "Tron",
+   "Binance",
+   "Ripple",
+   "Polygon",
+   "Arbitrum",
+   "Base",
+   "Sui",
+   "Cardano",
+   "Optimism",
+   "Sonic",
+   "Avalanche",
+   "TON",
+   "Cronos",
+   "zkSync Era",
+   "Starknet",
+   "Metis",
+   "Klaytn",
+   "Fantom",
+   "Kava",
+   "Hyperliquid L1",
+   "Doge"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "MEXC",
+  "slug": "mexc",
+  "category": "CEX",
+  "tvl": 4676107581.384722,
+  "chains": [
+   "Ethereum",
+   "Bitcoin",
+   "Solana",
+   "Tron",
+   "Binance",
+   "Ripple",
+   "Arbitrum",
+   "TON",
+   "Base",
+   "Avalanche",
+   "Polygon",
+   "Optimism",
+   "Aptos",
+   "Klaytn",
+   "Starknet"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Binance Bitcoin",
+  "slug": "binance-bitcoin",
+  "category": "Bridge",
+  "tvl": 4310586819.301026,
+  "chains": [
+   "Bitcoin"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Gemini",
+  "slug": "gemini",
+  "category": "CEX",
+  "tvl": 4212168471.775898,
+  "chains": [
+   "Bitcoin",
+   "Ethereum"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Deribit",
+  "slug": "deribit",
+  "category": "CEX",
+  "tvl": 4069392502.549809,
+  "chains": [
+   "Bitcoin",
+   "Ethereum",
+   "Solana",
+   "Ripple",
+   "Binance",
+   "EthereumPoW"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "HTX",
+  "slug": "htx",
+  "category": "CEX",
+  "tvl": 4008375060.6454463,
+  "chains": [
+   "Tron",
+   "Bitcoin",
+   "Ethereum",
+   "Ripple",
+   "Doge",
+   "Solana",
+   "Cardano",
+   "Litecoin",
+   "TON",
+   "Binance",
+   "Arbitrum",
+   "Sui",
+   "Avalanche",
+   "EOS",
+   "CORE",
+   "Starknet",
+   "Polygon",
+   "Optimism",
+   "Algorand"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "Ethena USDe",
+  "slug": "ethena-usde",
+  "category": "Basis Trading",
+  "tvl": 3874266078.556529,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#ethena"
+ },
+ {
+  "name": "SparkLend",
+  "slug": "sparklend",
+  "category": "Lending",
+  "tvl": 3681286789.095957,
+  "chains": [
+   "Ethereum",
+   "xDai"
+  ],
+  "parentProtocol": "parent#spark"
+ },
+ {
+  "name": "USDT0",
+  "slug": "usdt0",
+  "category": "Bridge",
+  "tvl": 3516439343.3107576,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "BlackRock BUIDL",
+  "slug": "blackrock-buidl",
+  "category": "RWA",
+  "tvl": 3491457649.420449,
+  "chains": [
+   "Ethereum",
+   "Aptos",
+   "Solana",
+   "Avalanche",
+   "Binance",
+   "Optimism",
+   "Arbitrum",
+   "Polygon"
+  ],
+  "parentProtocol": "parent#securitize"
+ },
+ {
+  "name": "JustLend V1",
+  "slug": "justlend-v1",
+  "category": "Lending",
+  "tvl": 3369014674.5010962,
+  "chains": [
+   "Tron"
+  ],
+  "parentProtocol": "parent#justlend"
+ },
+ {
+  "name": "ether.fi Stake",
+  "slug": "ether.fi-stake",
+  "category": "Liquid Restaking",
+  "tvl": 3245476286.7511325,
+  "chains": [
+   "Ethereum",
+   "Arbitrum",
+   "Base"
+  ],
+  "parentProtocol": "parent#ether-fi"
+ },
+ {
+  "name": "Steakhouse Financial",
+  "slug": "steakhouse-financial",
+  "category": "Risk Curators",
+  "tvl": 3036065839.181488,
+  "chains": [
+   "Base",
+   "Ethereum",
+   "Robinhood Chain",
+   "Solana",
+   "Monad",
+   "Katana",
+   "Arbitrum",
+   "Polygon",
+   "Corn",
+   "Unichain"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "PancakeSwap AMM",
+  "slug": "pancakeswap-amm",
+  "category": "Dexs",
+  "tvl": 1687111498.5097764,
+  "chains": [
+   "Binance",
+   "Ethereum",
+   "Aptos",
+   "zkSync Era",
+   "Base",
+   "Op_Bnb",
+   "Arbitrum",
+   "Linea",
+   "Robinhood Chain",
+   "Monad",
+   "Polygon zkEVM"
+  ],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "Uniswap V3",
+  "slug": "uniswap-v3",
+  "category": "Dexs",
+  "tvl": 1429081167.5106466,
+  "chains": [
+   "Ethereum",
+   "Base",
+   "Arbitrum",
+   "Binance",
+   "Robinhood Chain",
+   "Polygon",
+   "X Layer",
+   "Optimism",
+   "Plasma",
+   "xDai",
+   "Unichain",
+   "Avalanche",
+   "Celo",
+   "Monad",
+   "Nibiru",
+   "RSK",
+   "World Chain",
+   "0G",
+   "Boba",
+   "Filecoin",
+   "zkSync Era",
+   "Mantle",
+   "Etherlink",
+   "Goat",
+   "Sei",
+   "BOB",
+   "Telos",
+   "XDC",
+   "Lens",
+   "Sonic",
+   "Hemi",
+   "Redbelly",
+   "Scroll",
+   "Linea",
+   "Blast",
+   "Taiko",
+   "Lisk",
+   "MegaETH",
+   "Moonbeam",
+   "Tempo",
+   "Manta",
+   "LightLink",
+   "Polygon zkEVM",
+   "Corn",
+   "Saga"
+  ],
+  "parentProtocol": "parent#uniswap"
+ },
+ {
+  "name": "Curve DEX",
+  "slug": "curve-dex",
+  "category": "Dexs",
+  "tvl": 1276357754.224405,
+  "chains": [
+   "Ethereum",
+   "Fraxtal",
+   "Arbitrum",
+   "Base",
+   "Etherlink",
+   "Monad",
+   "Polygon",
+   "Plasma",
+   "X Layer",
+   "Avalanche",
+   "xDai",
+   "Optimism",
+   "Binance",
+   "Fantom",
+   "Unichain",
+   "Hyperliquid L1",
+   "TAC",
+   "Robinhood Chain",
+   "Celo",
+   "Sonic",
+   "Kava",
+   "XDC",
+   "Aurora",
+   "Plume Mainnet",
+   "Moonbeam",
+   "Taiko",
+   "Ink",
+   "Stable",
+   "Corn",
+   "Harmony",
+   "Mantle"
+  ],
+  "parentProtocol": "parent#curve-finance"
+ },
+ {
+  "name": "Compound V3",
+  "slug": "compound-v3",
+  "category": "Lending",
+  "tvl": 1122014593.529903,
+  "chains": [
+   "Ethereum",
+   "Arbitrum",
+   "Base",
+   "Optimism",
+   "Polygon",
+   "Mantle",
+   "Unichain",
+   "Scroll",
+   "Ronin"
+  ],
+  "parentProtocol": "parent#compound-finance"
+ },
+ {
+  "name": "Uniswap V4",
+  "slug": "uniswap-v4",
+  "category": "Dexs",
+  "tvl": 822365096.7678288,
+  "chains": [
+   "Ethereum",
+   "Base",
+   "Monad",
+   "Arbitrum",
+   "Binance",
+   "Robinhood Chain",
+   "Polygon",
+   "Unichain",
+   "Soneium",
+   "Optimism",
+   "Avalanche",
+   "X Layer",
+   "World Chain",
+   "Tempo",
+   "MegaETH",
+   "Blast",
+   "Ink",
+   "Zora"
+  ],
+  "parentProtocol": "parent#uniswap"
+ },
+ {
+  "name": "Uniswap V2",
+  "slug": "uniswap-v2",
+  "category": "Dexs",
+  "tvl": 797964277.8637667,
+  "chains": [
+   "Ethereum",
+   "Base",
+   "Polygon",
+   "Robinhood Chain",
+   "Arbitrum",
+   "Binance",
+   "X Layer",
+   "Optimism",
+   "Monad",
+   "Avalanche",
+   "Unichain",
+   "Tempo",
+   "Zora",
+   "Celo"
+  ],
+  "parentProtocol": "parent#uniswap"
+ },
+ {
+  "name": "PancakeSwap AMM V3",
+  "slug": "pancakeswap-amm-v3",
+  "category": "Dexs",
+  "tvl": 285181294.7756089,
+  "chains": [
+   "Binance",
+   "Ethereum",
+   "Base",
+   "Arbitrum",
+   "Solana",
+   "Monad",
+   "zkSync Era",
+   "Linea",
+   "Robinhood Chain",
+   "Op_Bnb",
+   "Polygon zkEVM"
+  ],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "Aave Horizon RWA",
+  "slug": "aave-horizon-rwa",
+  "category": "RWA Lending",
+  "tvl": 257214071.72917995,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Aave V4",
+  "slug": "aave-v4",
+  "category": "Lending",
+  "tvl": 202674152.2279717,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Yearn Finance",
+  "slug": "yearn-finance",
+  "category": "Yield Aggregator",
+  "tvl": 179082684.3249608,
+  "chains": [
+   "Ethereum",
+   "Katana",
+   "Base",
+   "Optimism",
+   "Polygon",
+   "Arbitrum",
+   "Fantom"
+  ],
+  "parentProtocol": "parent#yearn"
+ },
+ {
+  "name": "Aave V2",
+  "slug": "aave-v2",
+  "category": "Lending",
+  "tvl": 108985791.50349505,
+  "chains": [
+   "Ethereum",
+   "Polygon",
+   "Avalanche"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Compound V2",
+  "slug": "compound-v2",
+  "category": "Lending",
+  "tvl": 89211863.28645489,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#compound-finance"
+ },
+ {
+  "name": "Nexus Mutual",
+  "slug": "nexus-mutual",
+  "category": "Insurance",
+  "tvl": 86344773.44545591,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": null
+ },
+ {
+  "name": "dYdX V4",
+  "slug": "dydx-v4",
+  "category": "Derivatives",
+  "tvl": 77075485.5547689,
+  "chains": [
+   "dYdX"
+  ],
+  "parentProtocol": "parent#dydx"
+ },
+ {
+  "name": "PancakeSwap Infinity",
+  "slug": "pancakeswap-infinity",
+  "category": "Dexs",
+  "tvl": 72306450.28530675,
+  "chains": [
+   "Binance",
+   "Base"
+  ],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "dYdX V3",
+  "slug": "dydx-v3",
+  "category": "Derivatives",
+  "tvl": 37809670.90996505,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#dydx"
+ },
+ {
+  "name": "Aave V1",
+  "slug": "aave-v1",
+  "category": "Lending",
+  "tvl": 6240768.707965444,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "PancakeSwap StableSwap",
+  "slug": "pancakeswap-stableswap",
+  "category": "Dexs",
+  "tvl": 3663060.940350841,
+  "chains": [
+   "Binance",
+   "Arbitrum",
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "Uniswap V1",
+  "slug": "uniswap-v1",
+  "category": "Dexs",
+  "tvl": 3093075.823695272,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#uniswap"
+ },
+ {
+  "name": "Morpho Midnight",
+  "slug": "morpho-midnight",
+  "category": "Lending",
+  "tvl": 1883260.0867637864,
+  "chains": [
+   "Base"
+  ],
+  "parentProtocol": "parent#morpho"
+ },
+ {
+  "name": "Synthetix V4",
+  "slug": "synthetix-v4",
+  "category": "Derivatives",
+  "tvl": 880725.9268579688,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#synthetix"
+ },
+ {
+  "name": "Opyn Gamma",
+  "slug": "opyn-gamma",
+  "category": "Options",
+  "tvl": 835726.0820005934,
+  "chains": [
+   "Ethereum",
+   "Polygon",
+   "Avalanche"
+  ],
+  "parentProtocol": "parent#opyn"
+ },
+ {
+  "name": "Aave Aptos",
+  "slug": "aave-aptos",
+  "category": "Lending",
+  "tvl": 523350.90415184206,
+  "chains": [
+   "Aptos"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Opyn Squeeth",
+  "slug": "opyn-squeeth",
+  "category": "Derivatives",
+  "tvl": 466228.6617337029,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#opyn"
+ },
+ {
+  "name": "Opyn Convexity",
+  "slug": "opyn-convexity",
+  "category": "Options",
+  "tvl": 443209.63336032815,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#opyn"
+ },
+ {
+  "name": "Morpho Optimizer AaveV2",
+  "slug": "morpho-optimizer-aavev2",
+  "category": "Lending",
+  "tvl": 119186.57206953311,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#morpho"
+ },
+ {
+  "name": "Aave Arc",
+  "slug": "aave-arc",
+  "category": "Lending",
+  "tvl": 57262.143085958094,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#aave"
+ },
+ {
+  "name": "Morpho Optimizer CompoundV2",
+  "slug": "morpho-optimizer-compoundv2",
+  "category": "Lending",
+  "tvl": 26446.0827698273,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#morpho"
+ },
+ {
+  "name": "Morpho Optimizer AaveV3",
+  "slug": "morpho-optimizer-aavev3",
+  "category": "Lending",
+  "tvl": 22923.1263218752,
+  "chains": [
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#morpho"
+ },
+ {
+  "name": "Synthetix v1+v2",
+  "slug": "synthetix-v1+v2",
+  "category": "Synthetics",
+  "tvl": 1789.2176490690797,
+  "chains": [
+   "Optimism",
+   "Ethereum"
+  ],
+  "parentProtocol": "parent#synthetix"
+ },
+ {
+  "name": "PancakeSwap Options",
+  "slug": "pancakeswap-options",
+  "category": "Options",
+  "tvl": 89.81215962961998,
+  "chains": [
+   "Arbitrum"
+  ],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "Synthetix V3",
+  "slug": "synthetix-v3",
+  "category": "Derivatives",
+  "tvl": 0.4193661431804333,
+  "chains": [
+   "Base",
+   "Ethereum",
+   "Arbitrum"
+  ],
+  "parentProtocol": "parent#synthetix"
+ },
+ {
+  "name": "PancakeSwap AMM V1",
+  "slug": "pancakeswap-amm-v1",
+  "category": "Dexs",
+  "tvl": null,
+  "chains": [],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "PancakeSwap Perps",
+  "slug": "pancakeswap-perps",
+  "category": "Derivatives",
+  "tvl": null,
+  "chains": [],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "PancakeSwap Prediction",
+  "slug": "pancakeswap-prediction",
+  "category": "Prediction Market",
+  "tvl": null,
+  "chains": [],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "PancakeSwap Lottery",
+  "slug": "pancakeswap-lottery",
+  "category": "Luck Games",
+  "tvl": null,
+  "chains": [],
+  "parentProtocol": "parent#pancakeswap"
+ },
+ {
+  "name": "Uniswap Auctions",
+  "slug": "uniswap-auctions",
+  "category": "Launchpad",
+  "tvl": null,
+  "chains": [],
+  "parentProtocol": "parent#uniswap"
+ }
+]

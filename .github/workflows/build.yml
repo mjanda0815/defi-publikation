@@ -1,0 +1,42 @@
+name: Build PDF
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: texlive/texlive:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Make, Python/matplotlib und Pandoc (gepinnt auf 2.19.2)
+        run: |
+          apt-get update
+          apt-get install -y make python3 python3-matplotlib fonts-lmodern wget
+          wget -q https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb
+          dpkg -i pandoc-2.19.2-1-amd64.deb
+          pandoc --version | head -1
+
+      - name: Abbildungen aus eingecheckten Snapshots erzeugen
+        run: |
+          python3 abbildungen/titelgrafik.py
+          python3 abbildungen/tvl.py
+          python3 abbildungen/hashrate.py
+          python3 abbildungen/merkle.py
+          python3 abbildungen/defi_stack.py
+          python3 abbildungen/cfmm.py
+          python3 abbildungen/schemata.py
+
+      - name: Build PDF
+        run: make pdf
+
+      - name: Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: diplomarbeit-pdf
+          path: build/main.pdf
