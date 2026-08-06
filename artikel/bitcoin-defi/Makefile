@@ -21,7 +21,6 @@ tex: $(BUILD)
 		| $(STRIP_NUMBERING) \
 		| $(PANDOC) -f markdown -t latex --top-level-division=section --biblatex \
 		--shift-heading-level-by=-1 \
-		--lua-filter=pandoc-filters/fix-table-widths.lua \
 		-o $(BUILD)/artikel-inhalt.tex
 
 pdf: tex

@@ -179,7 +179,7 @@ Blockstream [@blockstream2026lbtc], Hiro [@hiro2026sbtc], mempool.space
 [@mempool2026]).
 
 | Weg | Mechanismus | Vertrauensannahme | Gebundener Wert (Bezugsgröße) |
-|:----|:------------|:------------------|:------------------------------|
+|:-----------|:--------------------|:-------------------|:--------------------------|
 | wBTC (Ethereum) | verwahrtes 1:1-IOU | Verwahrer | 7,30 Mrd. USD (Verwahrbestand) |
 | Babylon | Timelock-Skript, nativ — Staking, kein DeFi i. e. S. | Covenant-Komitee | 2,61 Mrd. USD (gesperrte BTC) |
 | tBTC (Threshold) | Schwellensignaturen | 51 von 100, rotierend | 313 Mio. USD (Token-Umlauf) |
