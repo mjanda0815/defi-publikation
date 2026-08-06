@@ -1,0 +1,36 @@
+{
+  "title": "Decentralized Finance und die Zukunft des Finanzwesens — Whitepaper und Begleitartikel „DeFi mit Bitcoin“ (Quellen und Datenstände)",
+  "description": "<p>Quelltexte, Abbildungsskripte und eingefrorene Datenstände zweier Veröffentlichungen von Martin Janda:</p><ol><li><b>Whitepaper „Decentralized Finance und die Zukunft des Finanzwesens“</b> (überarbeitete und aktualisierte Fassung der an der AKAD University angenommenen Diplomarbeit; Stand: August 2026, Marktdaten-Stichtag 02.08.2026)</li><li><b>Artikel „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?“</b> (Version 1.0, August 2026, Marktdaten-Stichtag 05.08.2026)</li></ol><p>Alle datenbasierten Abbildungen und die daraus abgeleiteten Marktzahlen sind aus den eingecheckten API-Snapshots reproduzierbar (DeFiLlama, Blockstream, Hiro, mempool.space, Blockchain.com); ein CI-Workflow baut beide PDFs vollständig aus dem Repository. PDFs und Beiträge: https://www.janda.io, Bereich Veröffentlichungen.</p>",
+  "creators": [
+    {
+      "name": "Janda, Martin"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "language": "deu",
+  "keywords": [
+    "Decentralized Finance",
+    "DeFi",
+    "Bitcoin",
+    "Blockchain",
+    "Smart Contracts",
+    "Rootstock",
+    "Stablecoins",
+    "MiCA",
+    "Reproduzierbarkeit"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.janda.io/veroeffentlichungen/whitepaper-decentralized-finance",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-workingpaper"
+    },
+    {
+      "identifier": "https://www.janda.io/veroeffentlichungen/defi-mit-bitcoin",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
+}
