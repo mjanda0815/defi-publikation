@@ -31,12 +31,19 @@ jobs:
           python3 abbildungen/defi_stack.py
           python3 abbildungen/cfmm.py
           python3 abbildungen/schemata.py
+          python3 abbildungen/bitcoin_bruecken.py
+          python3 abbildungen/rootstock_tvl.py
 
-      - name: Build PDF
+      - name: Whitepaper bauen
         run: make pdf
 
-      - name: Artefakt hochladen
+      - name: Artikel bauen
+        run: make -C artikel/bitcoin-defi pdf
+
+      - name: Artefakte hochladen
         uses: actions/upload-artifact@v4
         with:
-          name: diplomarbeit-pdf
-          path: build/main.pdf
+          name: publikationen-pdf
+          path: |
+            build/main.pdf
+            artikel/bitcoin-defi/build/main-artikel.pdf
