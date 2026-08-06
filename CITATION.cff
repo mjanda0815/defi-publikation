@@ -11,7 +11,8 @@ authors:
   - family-names: Janda
     given-names: Martin
     email: martin@janda.io
-version: "1.0"
+doi: 10.5281/zenodo.21815634
+version: "1.0.1"
 date-released: "2026-08-06"
 license: CC-BY-4.0
 repository-code: https://github.com/mjanda0815/defi-publikation

@@ -1,5 +1,7 @@
 # Decentralized Finance — Quellen und Datenstände der Veröffentlichungen
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21815634.svg)](https://doi.org/10.5281/zenodo.21815634)
+
 Dieses Repository enthält die Quelltexte, Abbildungsskripte und eingefrorenen
 Datenstände zu zwei Veröffentlichungen von Martin Janda:
 
@@ -57,6 +59,10 @@ Das Whitepaper basiert auf der 2023 eingereichten und angenommenen
 Diplomarbeit; für die Veröffentlichung wurden Marktdaten und regulatorischer
 Stand aktualisiert und einzelne Kapitel überarbeitet. Prüfungsbezogene
 Bestandteile und interne Arbeitsdokumente sind nicht Teil dieses Repositories.
+
+## Zitieren
+
+DOI (alle Versionen): [10.5281/zenodo.21815634](https://doi.org/10.5281/zenodo.21815634) — Zitierangaben siehe [CITATION.cff](CITATION.cff).
 
 ## Lizenz
 
