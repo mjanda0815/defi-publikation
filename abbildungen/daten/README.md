@@ -1,5 +1,24 @@
 # Eingecheckte Rohdaten für die Abbildungen
 
+## Artikel „DeFi mit Bitcoin" (v1.1, Stichtag 08.10.2026)
+
+Erzeugt mit `python3 abbildungen/snapshot_bitcoin.py --refresh`; geprüft mit
+`make verify-data` (39 Werte, Stand 09.10.2026: alle PASS). Zeitzone der
+Abrufe: MESZ; Abrufzeitpunkt = Commit-Datum der JSON-Dateien.
+
+| Datei | Endpunkte | Felder (Schema) | Messgröße |
+|---|---|---|---|
+| `bitcoin_bruecken.json` | `api.llama.fi/protocol/{wbtc,tbtc,lightning-network,babylon-protocol}`, `api.llama.fi/v2/chains`, `coins.llama.fi/prices/current/coingecko:bitcoin`, `blockstream.info/liquid/api/asset/<L-BTC>`, `api.hiro.so/metadata/v1/ft/<sBTC>`, `mempool.space/api/v1/lightning/statistics/latest`, `blockchain.info/q/totalbc`, `public-node.rsk.co` (`eth_gasPrice`) | `stichtag`, `btc_preis_usd`, `rsk_min_gaspreis_wei`, `btc_umlauf`, `wbtc_usd`, `tbtc_usd`, `lightning_usd`, `babylon_usd`, `lbtc_btc`, `sbtc_btc`, `lightning_btc`, `lightning_kanaele`, `chain_tvl_usd{Rootstock,Stacks,Citrea,BOB,Bitcoin,Ethereum}`, `chain_tvl_summe_usd`, `quellen` | wBTC/tBTC/Babylon: DeFiLlama-Protokoll-TVL in USD (Verwahr-/Sperrbestand bzw. Token-Umlauf); `lbtc_btc` = Peg-ins − Peg-outs − Burns (Buchbestand); `sbtc_btc` = Total Supply; `lightning_btc` = öffentliche Kanalkapazität; Chain-TVL = DeFiLlama-Aggregat je Chain; Summe = Σ aller Chains |
+| `rootstock_tvl.json` | `api.llama.fi/v2/historicalChainTvl/Rootstock` | Liste `{date (Unix), tvl (USD)}` | tägliche Chain-TVL-Historie (Abb. 3, ATH 07.10.2025) |
+| `rootstock_protokolle.json` | `api.llama.fi/protocols` (gefiltert auf Chain-Key `RSK`) | Liste `{name, slug, category, tvl_rsk}` | Protokoll-TVL auf Rootstock (Abschnitt 4.2); Σ ≠ Chain-TVL (Aggregator-Abgrenzung) |
+
+Berechnungsschritte im Artikel (alle in `verify_snapshot.py` nachgerechnet):
+USD-Werte für L-BTC/sBTC/Lightning = BTC-Menge × `btc_preis_usd`; Rootstock-Anteil
+= `chain_tvl_usd.Rootstock / chain_tvl_summe_usd`; BTC-Marktwert = `btc_umlauf ×
+btc_preis_usd`; Transfergebühr = 21.000 × `rsk_min_gaspreis_wei` / 1e18 × Kurs.
+
+## Whitepaper (Stichtage 01.–03.08.2026)
+
 Alle Marktdaten stammen aus Primärquellen (harte Regel 2, CLAUDE.md) und liegen
 hier als Snapshot im Repository, damit jede Abbildung reproduzierbar ist.
 Aktualisieren mit `python abbildungen/<name>.py --refresh` (überschreibt den

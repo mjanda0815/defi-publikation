@@ -40,6 +40,17 @@ def hole_zahl(url: str) -> float:
         return float(r.read())
 
 
+def rsk_gaspreis_wei() -> int:
+    """Mindest-Gaspreis der Rootstock-Chain via JSON-RPC (eth_gasPrice)."""
+    req = urllib.request.Request(
+        "https://public-node.rsk.co",
+        data=json.dumps({"jsonrpc": "2.0", "method": "eth_gasPrice",
+                         "params": [], "id": 1}).encode(),
+        headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return int(json.loads(r.read())["result"], 16)
+
+
 def protokoll_tvl(slug: str) -> float:
     """Aktueller Gesamt-TVL eines DeFiLlama-Protokolls in USD."""
     d = hole(f"https://api.llama.fi/protocol/{slug}")
@@ -71,6 +82,7 @@ def refresh() -> None:
     bruecken = {
         "stichtag": date.today().isoformat(),
         "btc_preis_usd": btc_preis,
+        "rsk_min_gaspreis_wei": rsk_gaspreis_wei(),
         "btc_umlauf": hole_zahl("https://blockchain.info/q/totalbc") / 1e8,
         "wbtc_usd": protokoll_tvl("wbtc"),
         "tbtc_usd": protokoll_tvl("tbtc"),
@@ -90,7 +102,11 @@ def refresh() -> None:
             "sbtc": f"api.hiro.so/metadata/v1/ft/{SBTC_TOKEN}",
             "lightning_btc": "mempool.space/api/v1/lightning/statistics/latest",
             "btc_preis": "coins.llama.fi/prices/current/coingecko:bitcoin",
+            "btc_umlauf": "blockchain.info/q/totalbc",
+            "chain_tvl_summe": "api.llama.fi/v2/chains (Summe aller Chains)",
+            "rsk_min_gaspreis": "public-node.rsk.co (JSON-RPC eth_gasPrice)",
         },
+        "chain_tvl_summe_usd": sum(v for v in chains.values() if v),
     }
     (DATEN / "bitcoin_bruecken.json").write_text(json.dumps(bruecken, indent=1))
 
@@ -109,6 +125,8 @@ def bericht() -> None:
           f"Lightning {b['lightning_btc']:,.1f} BTC")
     for name, v in b["chain_tvl_usd"].items():
         print(f"  Chain {name:<10}{(v or 0)/1e6:10.1f} Mio USD")
+    print(f"  BTC-Umlauf {b['btc_umlauf']:,.0f} BTC · "
+          f"Chain-Summe {b['chain_tvl_summe_usd']/1e9:.1f} Mrd USD")
 
 
 if __name__ == "__main__":

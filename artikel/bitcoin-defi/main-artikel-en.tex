@@ -1,0 +1,90 @@
+% main-artikel-en.tex — "DeFi with Bitcoin — how far does the base layer carry without altcoins?"
+% Englische Fassung des Artikels (Version 1.1); Preamble wie main-artikel.tex,
+% nur Sprache/Zitatstil angepasst. Der Fließtext wird per Pandoc aus
+% artikel-en.md nach build/artikel-inhalt-en.tex konvertiert (make pdf-en).
+
+\documentclass[12pt,a4paper,oneside]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[british]{babel}
+\usepackage[style=british]{csquotes}
+\usepackage{microtype}
+
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliographie-Notes enthalten lange, nicht trennbare Zeichenketten
+% (Dateipfade, API-Endpunkte) — wie in der deutschen Fassung.
+\emergencystretch=3em
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}
+
+\usepackage{graphicx}
+\graphicspath{{../../abbildungen/out/}}
+\setkeys{Gin}{keepaspectratio}
+
+\usepackage{newunicodechar}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{−}{\ensuremath{-}}
+
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=nyt,
+  urldate=long,
+  dateabbrev=false
+]{biblatex}
+\addbibresource{literatur-en.bib}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={DeFi with Bitcoin: Capabilities, Trust Assumptions and Real-World Applications},
+  pdfauthor={Martin Janda},
+  pdfsubject={A technical and economic analysis of Rootstock, Bitcoin bridges, and mining finance},
+  pdfkeywords={Bitcoin, Rootstock, DeFi, PowPeg, bitcoin-backed lending},
+  pdflang={en-GB}
+}
+\usepackage{xurl}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\title{DeFi with Bitcoin:\\ Capabilities, Trust Assumptions\\ and Real-World Applications}
+\subtitle{A Technical and Economic Analysis of Rootstock, Bitcoin Bridges,\\ and Mining Finance}
+\author{Martin Janda\\\normalsize martin@janda.io}
+\date{Version 1.1 · October 2026 \\ \footnotesize Market data, unless stated otherwise: as of 8 October 2026}
+
+\begin{document}
+
+% Titelseite und Abstract einzeilig (übliche Paper-Typografie); ab der
+% ersten \section gilt wieder \onehalfspacing — einmaliger Hook unten.
+\singlespacing
+
+\maketitle
+\vspace*{-2em}
+
+\begin{center}\footnotesize
+  Revised and expanded English-language edition of the German original article
+  \enquote{DeFi mit Bitcoin --- wie weit trägt die Basis ohne Altcoins?}
+  (first published August 2026). \\
+  Licence: CC~BY~4.0 (\url{https://creativecommons.org/licenses/by/4.0/}) ·
+  Permanent publication address: \url{https://www.janda.io}, section Veröffentlichungen \\
+  A companion article to the whitepaper \enquote{Decentralized Finance und
+  die Zukunft des Finanzwesens} ·
+  For information purposes only; not investment, legal or tax advice.
+\end{center}
+
+\let\origsection\section
+\renewcommand{\section}{\onehalfspacing\global\let\section\origsection\section}
+
+\input{build/artikel-inhalt-en}
+
+\printbibliography
+
+\end{document}

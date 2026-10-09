@@ -58,3 +58,8 @@ pdfa: pdf
 
 clean:
 	rm -rf $(BUILD)
+
+# Artikel „DeFi mit Bitcoin": Zahlen in Text/Tabellen/Abbildungen gegen die
+# eingefrorenen Snapshots und die Rechenbeispiele prüfen (PASS/FAIL je Zeile)
+verify-data:
+	python3 abbildungen/verify_snapshot.py

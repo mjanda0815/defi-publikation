@@ -10,8 +10,13 @@ Datenstände zu zwei Veröffentlichungen von Martin Janda:
    angenommenen Diplomarbeit; Stand: August 2026)
    → [Beitrag mit PDF-Download](https://www.janda.io/veroeffentlichungen/whitepaper-decentralized-finance)
 2. **Artikel: „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?"**
-   (Begleitartikel, Version 1.0, August 2026; Marktdaten-Stichtag: 05.08.2026)
+   (Begleitartikel, Version 1.1, Oktober 2026; Marktdaten-Stichtag: 08.10.2026;
+   Erstfassung Version 1.0, August 2026)
    → [Beitrag mit PDF-Download](https://www.janda.io/veroeffentlichungen/defi-mit-bitcoin)
+3. **English edition: „DeFi with Bitcoin: Capabilities, Trust Assumptions and
+   Real-World Applications"** (revised and expanded English-language edition of
+   the article, version 1.1, October 2026; sources `artikel/bitcoin-defi/artikel-en.md`,
+   `main-artikel-en.tex`, `literatur-en.bib`) → PDF via the same post.
 
 Zweck des Repositories ist die **Reproduzierbarkeit**: Alle datenbasierten
 Abbildungen und die daraus im Text abgeleiteten Marktzahlen lassen sich aus den
@@ -23,8 +28,10 @@ Quelle und Stichtag.
 ```
 kapitel/            Whitepaper-Quelltext (Markdown, Kapitel 1–6 + Glossar)
 main.tex, Makefile  Whitepaper-Build (Pandoc → LaTeX → PDF, Bibliographie: literatur.bib)
-artikel/bitcoin-defi/  Artikel-Quelltext, eigene Bibliographie und eigener Build
-abbildungen/        Abbildungsskripte (Python/matplotlib) + daten/ (eingefrorene Snapshots)
+artikel/bitcoin-defi/  Artikel-Quelltext (DE + EN), eigene Bibliographien und eigener Build
+abbildungen/        Abbildungsskripte (Python/matplotlib, `--en` für englische Beschriftung)
+                    + daten/ (eingefrorene Snapshots) + verify_snapshot.py (Zahlenprüfung)
+REPRODUCIBILITY.md  exakte Build-/Prüfbefehle, Abhängigkeiten, Grenzen der Reproduzierbarkeit
 ```
 
 ## Reproduktion
@@ -41,13 +48,18 @@ python3 abbildungen/bitcoin_bruecken.py
 # Whitepaper bauen:
 make pdf              # → build/main.pdf
 
-# Artikel bauen:
-cd artikel/bitcoin-defi && make pdf   # → build/main-artikel.pdf
+# Artikel bauen (deutsch / englisch):
+cd artikel/bitcoin-defi && make pdf      # → build/main-artikel.pdf
+cd artikel/bitcoin-defi && make pdf-en   # → build/main-artikel-en.pdf
+
+# Zahlen des Artikels gegen die eingefrorenen Snapshots prüfen (39 Prüfungen):
+make verify-data
 ```
 
 **Hinweis zu den Datenständen:** Die JSON-Dateien unter `abbildungen/daten/`
 sind bewusst eingefrorene Snapshots mit den in den Texten ausgewiesenen
-Stichtagen (Whitepaper: 02.08.2026, Artikel: 05.08.2026). Die
+Stichtagen (Whitepaper: 02.08.2026, Artikel v1.1: 08.10.2026; die Snapshots
+der Artikel-Erstfassung vom 05.08.2026 stehen in der Git-Historie, Tag `v1.0.1`). Die
 `snapshot_*.py`-Skripte laden mit `--refresh` **neue** Datenstände von den
 jeweiligen APIs (DeFiLlama, Blockstream, Hiro, mempool.space, Blockchain.com)
 und überschreiben die Snapshots — für die Reproduktion der veröffentlichten

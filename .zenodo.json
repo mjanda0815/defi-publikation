@@ -1,6 +1,6 @@
 {
   "title": "Decentralized Finance und die Zukunft des Finanzwesens — Whitepaper und Begleitartikel „DeFi mit Bitcoin“ (Quellen und Datenstände)",
-  "description": "<p>Quelltexte, Abbildungsskripte und eingefrorene Datenstände zweier Veröffentlichungen von Martin Janda:</p><ol><li><b>Whitepaper „Decentralized Finance und die Zukunft des Finanzwesens“</b> (überarbeitete und aktualisierte Fassung der an der AKAD University angenommenen Diplomarbeit; Stand: August 2026, Marktdaten-Stichtag 02.08.2026)</li><li><b>Artikel „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?“</b> (Version 1.0, August 2026, Marktdaten-Stichtag 05.08.2026)</li></ol><p>Alle datenbasierten Abbildungen und die daraus abgeleiteten Marktzahlen sind aus den eingecheckten API-Snapshots reproduzierbar (DeFiLlama, Blockstream, Hiro, mempool.space, Blockchain.com); ein CI-Workflow baut beide PDFs vollständig aus dem Repository. PDFs und Beiträge: https://www.janda.io, Bereich Veröffentlichungen.</p>",
+  "description": "<p>Quelltexte, Abbildungsskripte und eingefrorene Datenstände zweier Veröffentlichungen von Martin Janda:</p><ol><li><b>Whitepaper „Decentralized Finance und die Zukunft des Finanzwesens“</b> (überarbeitete und aktualisierte Fassung der an der AKAD University angenommenen Diplomarbeit; Stand: August 2026, Marktdaten-Stichtag 02.08.2026)</li><li><b>Artikel „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?“</b> (Version 1.1, Oktober 2026, Marktdaten-Stichtag 08.10.2026; Erstfassung August 2026) sowie dessen überarbeitete und erweiterte englische Ausgabe <b>„DeFi with Bitcoin: Capabilities, Trust Assumptions and Real-World Applications“</b> (Version 1.1, October 2026)</li></ol><p>Alle datenbasierten Abbildungen und die daraus abgeleiteten Marktzahlen sind aus den eingecheckten API-Snapshots reproduzierbar (DeFiLlama, Blockstream, Hiro, mempool.space, Blockchain.com); ein CI-Workflow baut alle drei PDFs vollständig aus dem Repository und prüft die Artikelzahlen gegen die Snapshots (make verify-data). PDFs und Beiträge: https://www.janda.io, Bereich Veröffentlichungen.</p>",
   "creators": [
     {
       "name": "Janda, Martin"
@@ -19,7 +19,9 @@
     "Rootstock",
     "Stablecoins",
     "MiCA",
-    "Reproduzierbarkeit"
+    "Reproduzierbarkeit",
+    "Bitcoin-backed lending",
+    "PowPeg"
   ],
   "related_identifiers": [
     {

@@ -32,13 +32,24 @@ jobs:
           python3 abbildungen/cfmm.py
           python3 abbildungen/schemata.py
           python3 abbildungen/bitcoin_bruecken.py
+          python3 abbildungen/bitcoin_bruecken.py --en
           python3 abbildungen/rootstock_tvl.py
+          python3 abbildungen/rootstock_tvl.py --en
+          python3 abbildungen/bitcoin_defi_stack.py
+          python3 abbildungen/bitcoin_defi_stack.py --en
+          python3 abbildungen/miner_finanzierung.py
+          python3 abbildungen/miner_finanzierung.py --en
+
+      - name: Artikel-Zahlen gegen die Snapshots prüfen
+        run: make verify-data
 
       - name: Whitepaper bauen
         run: make pdf
 
-      - name: Artikel bauen
-        run: make -C artikel/bitcoin-defi pdf
+      - name: Artikel bauen (deutsche und englische Fassung)
+        run: |
+          make -C artikel/bitcoin-defi pdf
+          make -C artikel/bitcoin-defi pdf-en
 
       - name: Artefakte hochladen
         uses: actions/upload-artifact@v4
@@ -47,3 +58,4 @@ jobs:
           path: |
             build/main.pdf
             artikel/bitcoin-defi/build/main-artikel.pdf
+            artikel/bitcoin-defi/build/main-artikel-en.pdf

@@ -1,7 +1,8 @@
 % literatur.bib — Artikel „DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?"
 % Eigenständige Bibliographie des Artikels (unabhängig von der Whitepaper-bib).
-% Konventionen wie ../../literatur.bib; Online-Quellen mit urldate = 2026-08-05.
-% Quellenherkunft und Verifikationsstand: RECHERCHE.md.
+% Konventionen wie ../../literatur.bib; Online-Quellen mit urldate = 2026-08-05
+% (Version 1.0) bzw. 2026-10-08 (in Version 1.1 neu aufgenommene oder erneut
+% verifizierte Quellen). Quellenherkunft und Verifikationsstand: RECHERCHE.md.
 
 % --- Aus der Whitepaper-Bibliographie übernommen (1:1-Kopien) ---
 
@@ -32,7 +33,7 @@
   author  = {{Europäische Union}},
   title   = {Verordnung ({EU}) 2023/1114 über Märkte für Kryptowerte ({MiCA})},
   year    = {2023},
-  url     = {https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R1114},
+  url     = {https://eur-lex.europa.eu/eli/reg/2023/1114/oj/deu},
   urldate = {2026-08-02}
 }
 
@@ -66,8 +67,9 @@
   author  = {{RootstockLabs}},
   title   = {{PowPeg} -- Rootstock's 2-Way Peg (Konzept-Dokumentation)},
   year    = {2026},
-  url     = {https://dev.rootstock.io/concepts/powpeg/},
-  urldate = {2026-08-05}
+  url     = {https://dev.rootstock.io/concepts/foundations/powpeg/},
+  urldate = {2026-10-09},
+  note    = {Peg-Bedingungen (100 BTC-Bestätigungen Peg-in; 4.000 Rootstock-Bestätigungen Peg-out; Mindestbeträge) erneut verifiziert am 09.10.2026}
 }
 
 @online{rootstock2026federation,
@@ -75,7 +77,7 @@
   title   = {The {PowPeg} Federation},
   year    = {2026},
   url     = {https://rootstock.io/powpeg/},
-  urldate = {2026-08-05}
+  urldate = {2026-10-08}
 }
 
 @online{rootstock2026mining,
@@ -100,7 +102,8 @@
   title   = {Rootstock Network Statistics},
   year    = {2026},
   url     = {https://stats.rootstock.io/},
-  urldate = {2026-08-05}
+  urldate = {2026-08-05},
+  note    = {In Version 1.0 zitiert; ab Version 1.1 nicht mehr referenziert}
 }
 
 @online{rootstock2026dev,
@@ -116,7 +119,7 @@
   title   = {Bitcoin-Netzwerkstatistik ({API}-Endpunkte q/hashrate, q/totalbc)},
   year    = {2026},
   url     = {https://blockchain.info/q/hashrate},
-  urldate = {2026-08-05},
+  urldate = {2026-10-08},
   note    = {Hashrate via q/hashrate; Umlaufmenge via https://blockchain.info/q/totalbc}
 }
 
@@ -125,7 +128,7 @@
   title   = {Rootstock -- Chain-{TVL} und Protokolle (API-Endpunkte historicalChainTvl/Rootstock, protocols)},
   year    = {2026},
   url     = {https://api.llama.fi/v2/historicalChainTvl/Rootstock},
-  urldate = {2026-08-05},
+  urldate = {2026-10-08},
   note    = {Eingecheckte Snapshots: abbildungen/daten/rootstock\_tvl.json, rootstock\_protokolle.json}
 }
 
@@ -133,8 +136,8 @@
   author  = {{DeFiLlama}},
   title   = {Protokoll- und Chain-{TVL} (API-Endpunkte protocol/\{slug\}, v2/chains, coins)},
   year    = {2026},
-  url     = {https://api.llama.fi},
-  urldate = {2026-08-05},
+  url     = {https://api.llama.fi/v2/chains},
+  urldate = {2026-10-08},
   note    = {Eingecheckter Snapshot: abbildungen/daten/bitcoin\_bruecken.json}
 }
 
@@ -211,7 +214,7 @@
   title   = {{L-BTC}-Asset-Statistik (Esplora-{API})},
   year    = {2026},
   url     = {https://blockstream.info/liquid/api/asset/6f0279e9ed041c3d710a9f57d0c02928416460c4b722ae3457a11eec381c526d},
-  urldate = {2026-08-05}
+  urldate = {2026-10-08}
 }
 
 @online{stacks2026sbtc,
@@ -227,7 +230,7 @@
   title   = {{sBTC}-Token-Metadaten (Stacks-Indexer-{API})},
   year    = {2026},
   url     = {https://api.hiro.so/metadata/v1/ft/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token},
-  urldate = {2026-08-05}
+  urldate = {2026-10-08}
 }
 
 @report{poon2016,
@@ -245,7 +248,7 @@
   title   = {Lightning Network Statistics ({API})},
   year    = {2026},
   url     = {https://mempool.space/api/v1/lightning/statistics/latest},
-  urldate = {2026-08-05}
+  urldate = {2026-10-08}
 }
 
 @report{linus2023bitvm,
@@ -272,7 +275,8 @@
   title   = {{BOB} -- Dokumentation},
   year    = {2026},
   url     = {https://docs.gobob.xyz/},
-  urldate = {2026-08-05}
+  urldate = {2026-10-08},
+  note    = {Mainnet-Status der {BitVM}-Brücke erneut geprüft am 08.10.2026: weiterhin Testnet}
 }
 
 @online{babylon2026,
@@ -283,6 +287,189 @@
   urldate = {2026-08-05}
 }
 
+% --- Neu in Version 1.1 (Stichtag 08.10.2026) ---
+
+@online{rootstock2026mergedminingq2,
+  author  = {{RootstockLabs}},
+  title   = {Rootstock x Bitcoin: Merged Mining Insights Report -- Q2 2026},
+  year    = {2026},
+  url     = {https://rootstock.io/blog/rootstock-x-bitcoin-merged-mining-insights-report-q2-2026/},
+  urldate = {2026-10-08},
+  note    = {Eigenangabe des Betreibers mit offengelegter Methodik; veröffentlicht 27.08.2026, Berichtszeitraum Q2 2026}
+}
+
+@online{bip119monitor2026,
+  author  = {{BIP-119 Monitor (Projektseite)}},
+  title   = {{BIP}-119 Status -- Miner-Signalisierung (Version Bit 5)},
+  year    = {2026},
+  url     = {https://bip119monitor.com/},
+  urldate = {2026-10-08},
+  note    = {Auswertung der Blockversionen seit Block 939.456; Signalisierungsquote über alle erfassten Difficulty-Perioden: 0{,}00\,\% (Abruf 08.10.2026)}
+}
+
+@online{rskrpc2026,
+  author  = {{RootstockLabs}},
+  title   = {Rootstock Public Node -- {JSON-RPC}-Endpunkt (eth\_gasPrice)},
+  year    = {2026},
+  url     = {https://public-node.rsk.co},
+  urldate = {2026-10-08},
+  note    = {Abgefragter Mindest-Gaspreis zum Stichtag: 0x18dbac0 Wei = 0{,}026 Gwei; eingefroren im Snapshot abbildungen/daten/bitcoin\_bruecken.json (Feld rsk\_min\_gaspreis\_wei)}
+}
+
+@online{rootstock2026roadmap,
+  author  = {{RootstockLabs}},
+  title   = {Rootstock Development Roadmap 2026},
+  year    = {2026},
+  url     = {https://rootstock.io/roadmap/},
+  urldate = {2026-10-08},
+  note    = {Union Bridge ({BitVMX}): Testnet seit Q2 2026, Testnet V2 für Q4 2026, Mainnet für 2027 angekündigt -- Betreiberangabe}
+}
+
+@misc{amela2025union,
+  author  = {Amela, Ramon and Mishra, Shreemoy and Lerner, Sergio Demian and Álvarez Cid-Fuentes, Javier},
+  title   = {Union: A Trust-minimized Bridge for Rootstock},
+  year    = {2025},
+  eprint  = {2501.07435},
+  eprinttype = {arxiv},
+  url     = {https://arxiv.org/abs/2501.07435},
+  urldate = {2026-10-08},
+  note    = {Autoren bei RootstockLabs/Fairgate Labs -- Betreibernähe bei der Bewertung berücksichtigen}
+}
+
+@online{rootstocklabs2026native,
+  author  = {{RootstockLabs}},
+  title   = {Bitcoin-Native Lending, Miner Financing, and {BTC} Yield},
+  year    = {2026},
+  url     = {https://www.rootstocklabs.com/blog/bitcoin-native-lending-miner-financing/},
+  urldate = {2026-10-08},
+  note    = {Herstellerbeitrag vom 30.07.2026; als Herstelleraussage gekennzeichnet}
+}
+
+@online{rootstocklabs2026miningfin,
+  author  = {{RootstockLabs}},
+  title   = {Bitcoin Mining Financing: Why Profitable Miners Still Run Out of Cash},
+  year    = {2026},
+  url     = {https://www.rootstocklabs.com/blog/bitcoin-mining-financing-why-profitable-miners-still-run-out-of-cash/},
+  urldate = {2026-10-08},
+  note    = {Herstellerbeitrag vom 26.08.2026; als Herstelleraussage gekennzeichnet}
+}
+
+@online{rootstocklabs2026collateral,
+  author  = {{RootstockLabs}},
+  title   = {How Are Institutions Using Bitcoin as Collateral? 5 Emerging Use Cases},
+  year    = {2026},
+  url     = {https://www.rootstocklabs.com/blog/how-are-institutions-using-bitcoin-as-collateral-5-emerging-use-cases/},
+  urldate = {2026-10-08},
+  note    = {Herstellerbeitrag vom 22.09.2026; als Herstelleraussage gekennzeichnet}
+}
+
+@online{rootstocklabs2026vaults,
+  author  = {{RootstockLabs}},
+  title   = {About Us -- Produktbeschreibung Rootstock Vaults},
+  year    = {2026},
+  url     = {https://www.rootstocklabs.com/about-us/},
+  urldate = {2026-10-08},
+  note    = {Herstellerbeschreibung; unabhängige Dokumentation der Produktarchitektur lag zum Stichtag nicht vor}
+}
+
+@online{rootstocklabs2026institutional,
+  author  = {{RootstockLabs}},
+  title   = {Unlocking Institutional Capital on Rootstock: Q1 2026},
+  year    = {2026},
+  url     = {https://www.rootstocklabs.com/blog/unlocking-institutional-capital-on-rootstock/},
+  urldate = {2026-10-08},
+  note    = {Herstellerbeitrag vom 24.03.2026; Start der Vault-Produkte von Mellow/Tyr (Januar 2026) und Midas (Februar 2026)}
+}
+
+@online{mara2026q2,
+  author  = {{MARA Holdings, Inc.}},
+  title   = {Form 10-Q, Quarterly Period Ended June 30, 2026},
+  year    = {2026},
+  url     = {https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000022/mara-20260630.htm},
+  urldate = {2026-10-08},
+  note    = {SEC-Filing; Kreditfazilitäten mit Coinbase Credit und Two Prime, Abschluss 04.08.2026, anfängliche Sicherheit 18.750 BTC (Fair Value rund 1{,}2 Mrd. USD)}
+}
+
+@online{mara2026q2brief,
+  author  = {{MARA Holdings, Inc.}},
+  title   = {Q2 2026 Shareholder Letter (Form 8-K, Exhibit)},
+  year    = {2026},
+  url     = {https://www.sec.gov/Archives/edgar/data/0001507605/000150760526000020/q226shareholderletter.htm},
+  urldate = {2026-10-08},
+  note    = {SEC-Filing; 600 Mio. USD inkrementelle Kreditaufnahme zu gewichtet 7{,}56\,\%, Refinanzierung 150 Mio. USD; {BTC}-Verkäufe Q2 2026: 2.213 {BTC} zu durchschnittlich 73.078 USD}
+}
+
+@online{sec2023celsius,
+  author  = {{U.S. Securities and Exchange Commission}},
+  title   = {{SEC} Charges Celsius Network Limited and Founder Alex Mashinsky with Fraud (Press Release 2023-133)},
+  year    = {2023},
+  url     = {https://www.sec.gov/newsroom/press-releases/2023-133},
+  urldate = {2026-10-08},
+  note    = {Dokumentiert u.\,a. die faktische Stilllegung der Celsius-Plattform und den Abhebungsstopp vom 12.06.2022}
+}
+
+@online{esma2026qa,
+  author  = {{European Securities and Markets Authority}},
+  title   = {Q\&A 2671: Exemption from White Paper Requirements when Offering a Crypto-Asset other than an {ART} or {EMT}},
+  year    = {2026},
+  url     = {https://www.esma.europa.eu/publications-data/questions-answers/2671},
+  urldate = {2026-10-09},
+  note    = {Antwort der Europäischen Kommission vom 21.05.2026 im ESMA-Q\&A-Verfahren; vollständig dezentrale Dienste ohne Intermediär können außerhalb des Anwendungsbereichs liegen (Erwägungsgrund 22) -- Einzelfallprüfung der zuständigen Behörden}
+}
+
+@online{rskip419,
+  author  = {{Rootstock Improvement Proposals}},
+  title   = {{RSKIP}-419: Powpeg Spendability Validation Protocol},
+  year    = {2023},
+  url     = {https://ips.rootstock.io/IPs/RSKIP419.html},
+  urldate = {2026-10-09},
+  note    = {Status: Adopted; dokumentiert u.\,a. die 4.000 Rootstock-Blockbestätigungen für Peg-outs im Mainnet}
+}
+
+@online{rootstock2026flyover,
+  author  = {{RootstockLabs}},
+  title   = {{RBTC} Flyover -- Overview (Entwickler-Dokumentation)},
+  year    = {2026},
+  url     = {https://dev.rootstock.io/developers/integrate/flyover/},
+  urldate = {2026-10-09},
+  note    = {Schnellere Peg-Route über Liquiditätsanbieter; eigenes Vertrauens- und Gebührenmodell}
+}
+
+@online{blockstream2026incident,
+  author  = {{Blockstream}},
+  title   = {Liquid Network Security Incident Assessment},
+  year    = {2026},
+  url     = {https://blog.blockstream.com/liquid-network-security-incident-assessment/},
+  urldate = {2026-10-09},
+  note    = {Vorfallsbericht vom 23.09.2026 zum Exploit vom 06.09.2026 (Rangeproof-Cache, ca. 4.000 ungedeckte L-BTC; 3.400 BTC zurückgegeben, ca. 602 BTC offen)}
+}
+
+@online{bitcoindevguide,
+  author  = {{Bitcoin Project}},
+  title   = {Bitcoin Developer Guide -- Block Chain},
+  year    = {2026},
+  url     = {https://developer.bitcoin.org/devguide/block_chain.html},
+  urldate = {2026-10-09}
+}
+
+@online{cleanspark2025,
+  author  = {{CleanSpark, Inc.}},
+  title   = {CleanSpark Expands Bitcoin-Backed Credit Facility with Coinbase Prime by \$100 Million (Form 8-K, Exhibit 99.1)},
+  year    = {2025},
+  url     = {https://www.sec.gov/Archives/edgar/data/827876/000119312525213437/clsk-ex99_1.htm},
+  urldate = {2026-10-09},
+  note    = {SEC-Filing vom 22.09.2025; verwahrte, bitcoin-besicherte Fazilität eines börsennotierten Miners vor dem MARA-Fall}
+}
+
+@online{delving2026optimistic,
+  author  = {{AdamISZ and others}},
+  title   = {Optimistic payout in {BitVM} implementations like Citrea?},
+  year    = {2026},
+  url     = {https://delvingbitcoin.org/t/optimistic-payout-in-bitvm-implementations-like-citrea/2465},
+  urldate = {2026-10-09},
+  note    = {Delving Bitcoin, Thread ab 28.04.2026; Kritik am zugangsbeschränkten Signer-Set und an dauerhaft aktiven Pre-Signing-Schlüsseln, Gegenrede der Citrea-Entwickler im selben Thread}
+}
+
 % --- Bitcoin-Protokollentwicklung (BIPs, Debatte) ---
 
 @online{bip119,
@@ -290,8 +477,8 @@
   title   = {{BIP} 119: {CHECKTEMPLATEVERIFY}},
   year    = {2020},
   url     = {https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki},
-  urldate = {2026-08-05},
-  note    = {Status: Draft (Stand 05.08.2026)}
+  urldate = {2026-10-08},
+  note    = {Status: Draft (Stand 08.10.2026)}
 }
 
 @online{bip341,
@@ -308,8 +495,8 @@
   title   = {{BIP} 347: {OP\_CAT} in Tapscript},
   year    = {2023},
   url     = {https://github.com/bitcoin/bips/blob/master/bip-0347.mediawiki},
-  urldate = {2026-08-05},
-  note    = {Status: Complete -- nach {BIP}-3-Semantik nicht aktiviert (Stand 05.08.2026)}
+  urldate = {2026-10-08},
+  note    = {Status: Complete -- nach {BIP}-3-Semantik nicht aktiviert (Stand 08.10.2026)}
 }
 
 @online{bip348,
@@ -317,8 +504,8 @@
   title   = {{BIP} 348: {CHECKSIGFROMSTACK}},
   year    = {2024},
   url     = {https://github.com/bitcoin/bips/blob/master/bip-0348.md},
-  urldate = {2026-08-05},
-  note    = {Status: Draft (Stand 05.08.2026)}
+  urldate = {2026-10-08},
+  note    = {Status: Draft (Stand 08.10.2026)}
 }
 
 @online{bip3,
@@ -373,8 +560,9 @@
   volume    = {9604},
   publisher = {Springer},
   year      = {2016},
-  url       = {https://fc16.ifca.ai/bitcoin/papers/MES16.pdf},
-  urldate   = {2026-08-05}
+  doi       = {10.1007/978-3-662-53357-4_9},
+  url       = {https://maltemoeser.de/paper/covenants.pdf},
+  urldate   = {2026-10-09}
 }
 
 @misc{bartoletti2020,

@@ -1,22 +1,23 @@
 {
- "stichtag": "2026-08-05",
- "btc_preis_usd": 64430.87276167584,
- "btc_umlauf": 20066146.0,
- "wbtc_usd": 7300258997,
- "tbtc_usd": 313298087,
- "lightning_usd": 270319778,
- "babylon_usd": 2604986141,
- "lbtc_btc": 4723.51505929,
- "sbtc_btc": 2517.51958739,
- "lightning_btc": 4189.6052864,
- "lightning_kanaele": 37444,
+ "stichtag": "2026-10-08",
+ "btc_preis_usd": 81610.59757148742,
+ "rsk_min_gaspreis_wei": 26065600,
+ "btc_umlauf": 20095387.0,
+ "wbtc_usd": 9628410725,
+ "tbtc_usd": 350851515,
+ "lightning_usd": 303568728,
+ "babylon_usd": 3339595745,
+ "lbtc_btc": 4234.75864413,
+ "sbtc_btc": 2487.78669454,
+ "lightning_btc": 3795.48376497,
+ "lightning_kanaele": 32678,
  "chain_tvl_usd": {
-  "Rootstock": 69283935.67416774,
-  "Stacks": 75794480.59840122,
-  "Citrea": 7000173.995059768,
-  "BOB": 9218358.846130397,
-  "Bitcoin": 3501350442.8505855,
-  "Ethereum": 40965091957.82921
+  "Rootstock": 82039712.27095212,
+  "Stacks": 92587092.15199819,
+  "Citrea": 9100498.916812256,
+  "BOB": 10202100.277175123,
+  "Bitcoin": 4402296556.684049,
+  "Ethereum": 51542627147.87752
  },
  "quellen": {
   "wbtc/tbtc/lightning/babylon": "api.llama.fi/protocol/<slug>",
@@ -26,7 +27,8 @@
   "lightning_btc": "mempool.space/api/v1/lightning/statistics/latest",
   "btc_preis": "coins.llama.fi/prices/current/coingecko:bitcoin",
   "btc_umlauf": "blockchain.info/q/totalbc",
-  "chain_tvl_summe": "api.llama.fi/v2/chains (Summe aller Chains)"
+  "chain_tvl_summe": "api.llama.fi/v2/chains (Summe aller Chains)",
+  "rsk_min_gaspreis": "public-node.rsk.co (JSON-RPC eth_gasPrice)"
  },
- "chain_tvl_summe_usd": 74767034641.60213
+ "chain_tvl_summe_usd": 92098266632.23763
 }

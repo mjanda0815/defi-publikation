@@ -6,14 +6,14 @@ message: >-
 type: dataset
 title: >-
   Decentralized Finance und die Zukunft des Finanzwesens — Whitepaper und
-  Begleitartikel „DeFi mit Bitcoin" (Quellen und Datenstände)
+  Begleitartikel „DeFi mit Bitcoin" / „DeFi with Bitcoin" (Quellen und Datenstände)
 authors:
   - family-names: Janda
     given-names: Martin
     email: martin@janda.io
 doi: 10.5281/zenodo.21815634
-version: "1.0.1"
-date-released: "2026-08-06"
+version: "1.1"
+date-released: "2026-10-09"
 license: CC-BY-4.0
 repository-code: https://github.com/mjanda0815/defi-publikation
 url: https://www.janda.io/veroeffentlichungen/whitepaper-decentralized-finance

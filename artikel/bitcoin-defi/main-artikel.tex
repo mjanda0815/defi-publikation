@@ -37,6 +37,7 @@
 % Mapping auf \approx im Textsatz (mechanischer Encoding-Fix, kein Inhalt).
 \usepackage{newunicodechar}
 \newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{−}{\ensuremath{-}}
 
 \usepackage[
   backend=biber,
@@ -48,6 +49,13 @@
 \addbibresource{literatur.bib}
 
 \usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={DeFi mit Bitcoin — wie weit trägt die Basis ohne Altcoins?},
+  pdfauthor={Martin Janda},
+  pdfsubject={Begleitartikel zum Whitepaper Decentralized Finance und die Zukunft des Finanzwesens},
+  pdfkeywords={Bitcoin, Rootstock, DeFi, PowPeg, Bitcoin-besicherte Kredite},
+  pdflang={de-DE}
+}
 \usepackage{xurl}
 
 % Pandoc-Kompatibilität (wie Whitepaper)
@@ -58,7 +66,7 @@
 \subtitle{Ein Begleitartikel zum Whitepaper\\
   \enquote{Decentralized Finance und die Zukunft des Finanzwesens}}
 \author{Martin Janda\\\normalsize martin@janda.io}
-\date{Version 1.0 · August 2026 \\ \normalsize Marktdaten, soweit nicht anders angegeben: Stand 05.08.2026}
+\date{Version 1.1 · Oktober 2026 (Erstfassung: August 2026) \\ \normalsize Marktdaten, soweit nicht anders angegeben: Stand 08.10.2026}
 
 \begin{document}
 % babel-ngerman aktiviert "\" als aktives Shorthand-Zeichen (z. B. "a -> ä,

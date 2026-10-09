@@ -3,198 +3,192 @@
   "name": "RIF ON CHAIN",
   "slug": "rif-on-chain",
   "category": "Dual-Token Stablecoin",
-  "tvl_rsk": 22167024.877888583
+  "tvl_rsk": 25260189.027467445
  },
  {
   "name": "MoneyOnChain",
   "slug": "moneyonchain",
   "category": "Dual-Token Stablecoin",
-  "tvl_rsk": 18486623.029982418
+  "tvl_rsk": 22220129.464796837
  },
  {
   "name": "Sovryn Zero",
   "slug": "sovryn-zero",
   "category": "CDP",
-  "tvl_rsk": 16708564.326048689
+  "tvl_rsk": 20477103.128919262
  },
  {
   "name": "Sovryn Dex",
   "slug": "sovryn-dex",
   "category": "Dexs",
-  "tvl_rsk": 6912065.675684049
- },
- {
-  "name": "Uniswap V3",
-  "slug": "uniswap-v3",
-  "category": "Dexs",
-  "tvl_rsk": 2484673.2794580786
+  "tvl_rsk": 8605270.495077731
  },
  {
   "name": "LayerBank",
   "slug": "layerbank",
   "category": "Lending",
-  "tvl_rsk": 1616028.5075141904
+  "tvl_rsk": 2235673.964827593
+ },
+ {
+  "name": "Uniswap V3",
+  "slug": "uniswap-v3",
+  "category": "Dexs",
+  "tvl_rsk": 2233956.52424833
  },
  {
   "name": "BabelFish",
   "slug": "babelfish",
   "category": "Bridge",
-  "tvl_rsk": 966565.9184448827
- },
- {
-  "name": "SushiSwap V3",
-  "slug": "sushiswap-v3",
-  "category": "Dexs",
-  "tvl_rsk": 571059.0228260225
- },
- {
-  "name": "LayerZero V2",
-  "slug": "layerzero-v2",
-  "category": "Bridge",
-  "tvl_rsk": 469700.7192289633
- },
- {
-  "name": "Gate",
-  "slug": "gate",
-  "category": "CEX",
-  "tvl_rsk": 205200.78635466628
- },
- {
-  "name": "Symbiosis",
-  "slug": "symbiosis",
-  "category": "Cross Chain Bridge",
-  "tvl_rsk": 141699.70647513532
- },
- {
-  "name": "Tropykus RSK",
-  "slug": "tropykus-rsk",
-  "category": "Lending",
-  "tvl_rsk": 108757.368449147
- },
- {
-  "name": "RskSwap",
-  "slug": "rskswap",
-  "category": "Dexs",
-  "tvl_rsk": 51968.61240316641
- },
- {
-  "name": "Midas RWA",
-  "slug": "midas-rwa",
-  "category": "RWA",
-  "tvl_rsk": 28708.36
- },
- {
-  "name": "Beefy",
-  "slug": "beefy",
-  "category": "Yield Aggregator",
-  "tvl_rsk": 26739.64867841771
- },
- {
-  "name": "WoodSwap",
-  "slug": "woodswap",
-  "category": "Dexs",
-  "tvl_rsk": 15219.342170981985
- },
- {
-  "name": "BitChill",
-  "slug": "bitchill",
-  "category": "DCA Tools",
-  "tvl_rsk": 15049.089996662668
- },
- {
-  "name": "Blindex",
-  "slug": "blindex",
-  "category": "Algo-Stables",
-  "tvl_rsk": 9155.209418319168
- },
- {
-  "name": "Money Protocol",
-  "slug": "money-protocol",
-  "category": "CDP",
-  "tvl_rsk": 5132.192495765608
- },
- {
-  "name": "Intrinsic",
-  "slug": "intrinsic",
-  "category": "Dexs",
-  "tvl_rsk": 1897.0678754636049
- },
- {
-  "name": "Pell Network",
-  "slug": "pell-network",
-  "category": "Restaking",
-  "tvl_rsk": 1733.600519551576
- },
- {
-  "name": "Elk",
-  "slug": "elk",
-  "category": "Dexs",
-  "tvl_rsk": 1539.3415735495685
- },
- {
-  "name": "Bedrock uniBTC",
-  "slug": "bedrock-unibtc",
-  "category": "Anchor BTC",
-  "tvl_rsk": 704.3595629650438
- },
- {
-  "name": "RSK Bridge",
-  "slug": "rsk-bridge",
-  "category": "Canonical Bridge",
-  "tvl_rsk": 379.6670618743466
- },
- {
-  "name": "SushiSwap",
-  "slug": "sushiswap",
-  "category": "Dexs",
-  "tvl_rsk": 337.5392907879754
- },
- {
-  "name": "Balmy",
-  "slug": "balmy",
-  "category": "DCA Tools",
-  "tvl_rsk": 269.98239852946307
- },
- {
-  "name": "Steer Protocol",
-  "slug": "steer-protocol",
-  "category": "Liquidity Manager",
-  "tvl_rsk": 258.1462826641015
- },
- {
-  "name": "Boltz",
-  "slug": "boltz",
-  "category": "Bridge",
-  "tvl_rsk": 219.99982694375288
- },
- {
-  "name": "PowPeg Fast Mode",
-  "slug": "powpeg-fast-mode",
-  "category": "Bridge",
-  "tvl_rsk": 187.6687713676025
- },
- {
-  "name": "Segment Finance",
-  "slug": "segment-finance",
-  "category": "Lending",
-  "tvl_rsk": 186.99169530015342
- },
- {
-  "name": "ICHI",
-  "slug": "ichi",
-  "category": "Liquidity Manager",
-  "tvl_rsk": 74.76900724282191
- },
- {
-  "name": "Gamma",
-  "slug": "gamma",
-  "category": "Liquidity Manager",
-  "tvl_rsk": 7.556545338494379
+  "tvl_rsk": 1234979.6091916151
  },
  {
   "name": "Mellow Core",
   "slug": "mellow-core",
   "category": "Onchain Capital Allocator",
+  "tvl_rsk": 1169731.786669195
+ },
+ {
+  "name": "LayerZero V2",
+  "slug": "layerzero-v2",
+  "category": "Bridge",
+  "tvl_rsk": 895618.3472079546
+ },
+ {
+  "name": "SushiSwap V3",
+  "slug": "sushiswap-v3",
+  "category": "Dexs",
+  "tvl_rsk": 698162.0677173119
+ },
+ {
+  "name": "Gate",
+  "slug": "gate",
+  "category": "CEX",
+  "tvl_rsk": 253190.09346238777
+ },
+ {
+  "name": "Tropykus RSK",
+  "slug": "tropykus-rsk",
+  "category": "Lending",
+  "tvl_rsk": 108556.86181808077
+ },
+ {
+  "name": "Symbiosis",
+  "slug": "symbiosis",
+  "category": "Cross Chain Bridge",
+  "tvl_rsk": 100586.94613253398
+ },
+ {
+  "name": "RskSwap",
+  "slug": "rskswap",
+  "category": "Dexs",
+  "tvl_rsk": 57247.14281295723
+ },
+ {
+  "name": "WoodSwap",
+  "slug": "woodswap",
+  "category": "Dexs",
+  "tvl_rsk": 17626.73510589112
+ },
+ {
+  "name": "Blindex",
+  "slug": "blindex",
+  "category": "Algo-Stables",
+  "tvl_rsk": 12020.801417695062
+ },
+ {
+  "name": "Money Protocol",
+  "slug": "money-protocol",
+  "category": "CDP",
+  "tvl_rsk": 6585.532340303318
+ },
+ {
+  "name": "Pell Network",
+  "slug": "pell-network",
+  "category": "Restaking",
+  "tvl_rsk": 2113.4985266067624
+ },
+ {
+  "name": "Intrinsic",
+  "slug": "intrinsic",
+  "category": "Dexs",
+  "tvl_rsk": 1897.6623180349384
+ },
+ {
+  "name": "Elk",
+  "slug": "elk",
+  "category": "Dexs",
+  "tvl_rsk": 1718.017552316485
+ },
+ {
+  "name": "BitChill",
+  "slug": "bitchill",
+  "category": "DCA Tools",
+  "tvl_rsk": 1124.1753326980238
+ },
+ {
+  "name": "Bedrock uniBTC",
+  "slug": "bedrock-unibtc",
+  "category": "Anchor BTC",
+  "tvl_rsk": 903.2419352060616
+ },
+ {
+  "name": "RSK Bridge",
+  "slug": "rsk-bridge",
+  "category": "Canonical Bridge",
+  "tvl_rsk": 382.9808720824324
+ },
+ {
+  "name": "SushiSwap",
+  "slug": "sushiswap",
+  "category": "Dexs",
+  "tvl_rsk": 377.33707287813064
+ },
+ {
+  "name": "Balmy",
+  "slug": "balmy",
+  "category": "DCA Tools",
+  "tvl_rsk": 311.7226564579218
+ },
+ {
+  "name": "PowPeg Fast Mode",
+  "slug": "powpeg-fast-mode",
+  "category": "Bridge",
+  "tvl_rsk": 241.63417749198382
+ },
+ {
+  "name": "Segment Finance",
+  "slug": "segment-finance",
+  "category": "Lending",
+  "tvl_rsk": 185.3401438649519
+ },
+ {
+  "name": "ICHI",
+  "slug": "ichi",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 94.92976307687194
+ },
+ {
+  "name": "Steer Protocol",
+  "slug": "steer-protocol",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 87.06724680790501
+ },
+ {
+  "name": "Gamma",
+  "slug": "gamma",
+  "category": "Liquidity Manager",
+  "tvl_rsk": 4.752648053765306
+ },
+ {
+  "name": "Boltz",
+  "slug": "boltz",
+  "category": "Bridge",
+  "tvl_rsk": 0.038370033579002746
+ },
+ {
+  "name": "Beefy",
+  "slug": "beefy",
+  "category": "Yield Aggregator",
   "tvl_rsk": 0
  },
  {
