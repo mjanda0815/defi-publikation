@@ -75,6 +75,7 @@ Bestandteile und interne Arbeitsdokumente sind nicht Teil dieses Repositories.
 ## Zitieren
 
 DOI (alle Versionen): [10.5281/zenodo.21815634](https://doi.org/10.5281/zenodo.21815634) — Zitierangaben siehe [CITATION.cff](CITATION.cff).
+Versions-DOIs: v1.1 (Oktober 2026) [10.5281/zenodo.23256778](https://doi.org/10.5281/zenodo.23256778) · v1.0.1 (August 2026) [10.5281/zenodo.21815635](https://doi.org/10.5281/zenodo.21815635).
 
 ## Lizenz
 
